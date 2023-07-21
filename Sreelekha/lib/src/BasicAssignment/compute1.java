@@ -1,6 +1,6 @@
 package BasicAssignment;
 
-public class compute1 {
+public class Compute1 {
     public static void main(String[] args) {
         char a=9;
         char b=3;
