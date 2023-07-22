@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Gcd",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Gcd",
+            "projectName": "JavaPractices_e2818b60"
+        },
+        {
+            "type": "java",
+            "name": "Floyds_Tri",
+            "request": "launch",
+            "mainClass": "Basic_Assignment.Floyds_Tri",
+            "projectName": "JavaPractices_e2818b60"
+        },
+        {
+            "type": "java",
             "name": "Natural",
             "request": "launch",
             "mainClass": "BasicAssignment.Natural",
