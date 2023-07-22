@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Prime",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "A_Z",
+            "request": "launch",
+            "mainClass": "BasicAssignment.A_Z",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "Sreelekha",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Sreelekha",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "Alphabet",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Alphabet",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "Alphabets",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Alphabets",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "A_Z_Char",
+            "request": "launch",
+            "mainClass": "Basic_Assignment.A_Z_Char",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "Abcd",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Abcd",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTable",
+            "request": "launch",
+            "mainClass": "BasicAssignment.MultiplicationTable",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
             "name": "Natural",
             "request": "launch",
             "mainClass": "BasicAssignment.Natural",
