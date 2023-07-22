@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Alphabet",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Alphabet",
+            "projectName": "JavaPractices_226d38f3"
+        },
+        {
+            "type": "java",
+            "name": "Largestnumbersthree",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Largestnumbersthree",
+            "projectName": "JavaPractices_226d38f3"
+        },
+        {
+            "type": "java",
             "name": "Gcd",
             "request": "launch",
             "mainClass": "BasicAssignment.Gcd",
