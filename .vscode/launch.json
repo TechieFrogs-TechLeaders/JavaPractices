@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Triangle",
             "request": "launch",
             "mainClass": "BasicAssignment.Triangle",
@@ -24,6 +25,40 @@
             "request": "launch",
             "mainClass": "BasicAssignment.Armstrong",
             "projectName": "JavaPractices_e2818b60"
+=======
+            "name": "InvertedNumbers",
+            "request": "launch",
+            "mainClass": "BasicAssignment.InvertedNumbers",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "InvertedReverse",
+            "request": "launch",
+            "mainClass": "BasicAssignment.InvertedReverse",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "ArmStrong",
+            "request": "launch",
+            "mainClass": "BasicAssignment.ArmStrong",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Lcm",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Lcm",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "InvertedpyramidFull",
+            "request": "launch",
+            "mainClass": "BasicAssignment.InvertedpyramidFull",
+            "projectName": "JavaPractices_f98acbaf"
+>>>>>>> e89415b04fe5aad6e9bd7e298a4bdccfcc0bafd4
         },
         {
             "type": "java",
