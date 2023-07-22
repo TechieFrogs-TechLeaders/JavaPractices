@@ -2,12 +2,11 @@ package BasicAssignment;
 
 public class MultiplicationTable {
     public static void main(String[] args){
-        int a= 10;
-        int b= 3;
+        int n= 10;
         int mul = 0;
-        for(int i=1;i<=a;i++){
-            mul=b*i;
-            System.out.println("for each iteration mul value : " +a+" "+"*"+i+" "+" =" +mul);
+        for(int i=1;i<=n;i++){
+            mul=n*i;
+            System.out.println( n+" "+"*"+i+" "+" =" +mul);
         }
     }
 }
