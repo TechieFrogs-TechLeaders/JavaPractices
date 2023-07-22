@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Prime",
             "request": "launch",
             "mainClass": "BasicAssignment.Prime",
@@ -59,6 +60,75 @@
             "request": "launch",
             "mainClass": "BasicAssignment.MultiplicationTable",
             "projectName": "JavaPractices_52b83916"
+=======
+<<<<<<< HEAD
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Triangle",
+            "projectName": "JavaPractices_e2818b60"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Palindrome",
+            "projectName": "JavaPractices_e2818b60"
+        },
+        {
+            "type": "java",
+            "name": "Armstrong",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Armstrong",
+            "projectName": "JavaPractices_e2818b60"
+=======
+            "name": "InvertedNumbers",
+            "request": "launch",
+            "mainClass": "BasicAssignment.InvertedNumbers",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "InvertedReverse",
+            "request": "launch",
+            "mainClass": "BasicAssignment.InvertedReverse",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "ArmStrong",
+            "request": "launch",
+            "mainClass": "BasicAssignment.ArmStrong",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Lcm",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Lcm",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "InvertedpyramidFull",
+            "request": "launch",
+            "mainClass": "BasicAssignment.InvertedpyramidFull",
+            "projectName": "JavaPractices_f98acbaf"
+>>>>>>> e89415b04fe5aad6e9bd7e298a4bdccfcc0bafd4
+        },
+        {
+            "type": "java",
+            "name": "Gcd",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Gcd",
+            "projectName": "JavaPractices_e2818b60"
+        },
+        {
+            "type": "java",
+            "name": "Floyds_Tri",
+            "request": "launch",
+            "mainClass": "Basic_Assignment.Floyds_Tri",
+            "projectName": "JavaPractices_e2818b60"
+>>>>>>> cbee180fee9e7c36025a7ebe077a762a6d997bcc
         },
         {
             "type": "java",
