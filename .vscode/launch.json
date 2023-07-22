@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InvertedNumbers",
+            "request": "launch",
+            "mainClass": "BasicAssignment.InvertedNumbers",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "InvertedReverse",
+            "request": "launch",
+            "mainClass": "BasicAssignment.InvertedReverse",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "ArmStrong",
+            "request": "launch",
+            "mainClass": "BasicAssignment.ArmStrong",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Lcm",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Lcm",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "InvertedpyramidFull",
+            "request": "launch",
+            "mainClass": "BasicAssignment.InvertedpyramidFull",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
             "name": "Gcd",
             "request": "launch",
             "mainClass": "BasicAssignment.Gcd",
