@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Triangle",
+            "projectName": "JavaPractices_e2818b60"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Palindrome",
+            "projectName": "JavaPractices_e2818b60"
+        },
+        {
+            "type": "java",
+            "name": "Armstrong",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Armstrong",
+            "projectName": "JavaPractices_e2818b60"
+        },
+        {
+            "type": "java",
             "name": "Gcd",
             "request": "launch",
             "mainClass": "BasicAssignment.Gcd",
