@@ -1,17 +1,26 @@
 package BasicAssignment;
     public class Palindrome {
        public static void main(String[] args) {
-    String x="abcdedcba";
-    int i=0,j=x.length() - 1 ;
-    while(i<j) {
-        if (x.charAt(i) != x.charAt(j)) {
-    {
-        System.out.println("Not a palindrome");
-        System.out.println(0);
+        int n = 121,reminder,reverse=0,temp;
+        temp = n;
+        while(n!=0){
+        
+           reminder = n%10;
+           reverse =(reverse*10) + reminder;
+             n =n/10;
+        }
+      if( temp ==reverse){
+        {
+            System.out.print("it is a palindrome");
+        }
+    }else{
+        System.out.println("not a palindrome");
     }
-    i++;
-    j--;
-    }
-        } 
-      }
-    }
+
+}
+    
+    
+
+
+
+,ṁ
