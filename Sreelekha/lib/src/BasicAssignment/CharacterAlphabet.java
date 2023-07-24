@@ -8,6 +8,12 @@ public class CharacterAlphabet {
         }
         else {
             System.out.println(C+ "is not Alphabet");
+
+
+
+
+
+            
         }
     }
     
