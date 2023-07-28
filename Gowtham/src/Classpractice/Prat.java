@@ -1,4 +1,4 @@
-package Classpratice;
+package Classpractice;
 public class Prat {
     public static void main(String[] args){
         System.out.println("prat is rad");

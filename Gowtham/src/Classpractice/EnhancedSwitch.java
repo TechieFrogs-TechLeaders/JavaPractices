@@ -1,4 +1,4 @@
-package Classpratice;
+package Classpractice;
 public class EnhancedSwitch {
     public static void main(String[] args) {
         int n=35;
