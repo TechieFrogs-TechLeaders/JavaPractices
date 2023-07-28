@@ -12,5 +12,12 @@ public class Scan {
     static void close() {
     }
 
+    public static boolean hasNext() {
+        return false;
+    }
+
+    public static void next() {
+    }
+
    
 }
