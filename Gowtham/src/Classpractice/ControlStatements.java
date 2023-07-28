@@ -1,4 +1,4 @@
-package Classpratice;
+package Classpractice;
 public class ControlStatements {
     public static void main(String[] args) {
         int age=18;

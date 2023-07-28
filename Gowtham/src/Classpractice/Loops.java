@@ -1,4 +1,4 @@
-package Classpratice;
+package Classpractice;
 public class Loops {
     public static void main(String[] args) {
        /* for ( double f=6.1; f<=19.99; f++){
