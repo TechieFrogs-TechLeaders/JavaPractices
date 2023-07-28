@@ -6,8 +6,8 @@ public class Enhancedswitch {
            System.out.println("Near to k");
     case 15:
            System.out.println("more than k");
-    default:
-          System.out.println("No number matched");
+   default:
+         System.out.println("No number matched");
         }
     }
 }
