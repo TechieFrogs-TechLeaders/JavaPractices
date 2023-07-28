@@ -4,22 +4,25 @@ public class DiamondStar
 {
     public static void main(String[] args) 
     {
-        int r=9,i,j,k;
-        for(i=0;i<=r;i++)
-        {
-            for(j=i;j<(r-1);j++)
-            System.out.print(" ");
-            for(k=0;k<(i*2)+1;k++)
-            System.out.print("*");
+        int r=9;
+        for(int i=1;i<=r;i++){
+            for(int j=1;j<=r-i;j++){
+                System.out.print(" ");
+            }
+            for(int k=1;k<=i*2-1;k++){
+                System.out.print("*");
+            }
             System.out.println();
         }
-        for(i=0;i<(r-1);i++)
-        {
-        for(j=i;j>=0;j--)
-            System.out.print(" ");
-        for(k=(r*2)-3;k>(i*2);k--)
-        System.out.print("*");
-        System.out.println();
+        int g=8;
+        for(int x=g;x>=1;x--){
+            for(int y=1;y<=g-x+1;y++){
+                System.out.print(" ");
+            }
+            for(int z=1;z<=x*2-1;z++){
+                System.out.print("*");
+            }
+            System.out.println();
         }
     }
 }

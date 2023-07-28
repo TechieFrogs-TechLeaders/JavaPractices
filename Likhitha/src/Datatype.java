@@ -14,7 +14,7 @@ public class Datatype {
                System.out.println(d1);
                System.out.println(e1);
                System.out.println(f1);
-               System.out.println(g1);
+               System.out.println(h1);
                System.out.println(h1);
          }        
 }

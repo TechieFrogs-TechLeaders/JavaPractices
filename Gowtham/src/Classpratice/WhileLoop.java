@@ -7,11 +7,11 @@ public class WhileLoop {
            i++;
         }
 
-        int j=5;
+        int j=10;
         do{
             System.out.println(j);
             j++;
         }while(j>15);
-        j++;
+      
     }
 }
