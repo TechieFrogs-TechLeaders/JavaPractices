@@ -6,6 +6,83 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Longvalid",
+            "request": "launch",
+            "mainClass": "Longvalid",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Validation4",
+            "request": "launch",
+            "mainClass": "Validation4",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Validation3",
+            "request": "launch",
+            "mainClass": "Validation3",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Vallidation2",
+            "request": "launch",
+            "mainClass": "Vallidation2",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Validation1",
+            "request": "launch",
+            "mainClass": "Validation1",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Vallidation1",
+            "request": "launch",
+            "mainClass": "Vallidation1",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Validation",
+            "request": "launch",
+            "mainClass": "Validation",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Dowhile",
+            "request": "launch",
+            "mainClass": "Dowhile",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Forloop",
+            "request": "launch",
+            "mainClass": "Forloop",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Floyd",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Floyd",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Palindrome",
+            "projectName": "JavaPractices_f98acbaf"
+        },
+        {
+            "type": "java",
             "name": "InvertedNumbers",
             "request": "launch",
             "mainClass": "BasicAssignment.InvertedNumbers",
