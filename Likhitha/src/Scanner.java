@@ -6,13 +6,9 @@ import java.util.Scanner;
     
     Scanner input = new Scanner(System.in);
     System.out.print("Enter Double value: ");
-
-
-    
-    double value = input.nextDouble();
+     double value = input.nextDouble();
     System.out.println("Using nextDouble(): " + value);
 
     input.close();
   }
 }
-

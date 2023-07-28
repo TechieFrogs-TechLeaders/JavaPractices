@@ -6,6 +6,7 @@
     "configurations": [
         {
             "type": "java",
+<<<<<<< HEAD
             "name": "Longvalid",
             "request": "launch",
             "mainClass": "Longvalid",
@@ -73,16 +74,103 @@
             "request": "launch",
             "mainClass": "BasicAssignment.Floyd",
             "projectName": "JavaPractices_f98acbaf"
+=======
+<<<<<<< HEAD
+            "name": "Alphabet",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Alphabet",
+            "projectName": "JavaPractices_226d38f3"
+        },
+        {
+            "type": "java",
+            "name": "Largestnumbersthree",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Largestnumbersthree",
+            "projectName": "JavaPractices_226d38f3"
+=======
+<<<<<<< HEAD
+            "name": "Prime",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Prime",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "A_Z",
+            "request": "launch",
+            "mainClass": "BasicAssignment.A_Z",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "Sreelekha",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Sreelekha",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "Alphabet",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Alphabet",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "Alphabets",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Alphabets",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "A_Z_Char",
+            "request": "launch",
+            "mainClass": "Basic_Assignment.A_Z_Char",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "Abcd",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Abcd",
+            "projectName": "JavaPractices_52b83916"
+        },
+        {
+            "type": "java",
+            "name": "MultiplicationTable",
+            "request": "launch",
+            "mainClass": "BasicAssignment.MultiplicationTable",
+            "projectName": "JavaPractices_52b83916"
+=======
+<<<<<<< HEAD
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Triangle",
+            "projectName": "JavaPractices_e2818b60"
+>>>>>>> 4f7f53cdd70cabe8602852ac4b4afebb0d872f42
         },
         {
             "type": "java",
             "name": "Palindrome",
             "request": "launch",
             "mainClass": "BasicAssignment.Palindrome",
+<<<<<<< HEAD
             "projectName": "JavaPractices_f98acbaf"
         },
         {
             "type": "java",
+=======
+            "projectName": "JavaPractices_e2818b60"
+        },
+        {
+            "type": "java",
+            "name": "Armstrong",
+            "request": "launch",
+            "mainClass": "BasicAssignment.Armstrong",
+            "projectName": "JavaPractices_e2818b60"
+=======
+>>>>>>> 4f7f53cdd70cabe8602852ac4b4afebb0d872f42
             "name": "InvertedNumbers",
             "request": "launch",
             "mainClass": "BasicAssignment.InvertedNumbers",
@@ -115,6 +203,8 @@
             "request": "launch",
             "mainClass": "BasicAssignment.InvertedpyramidFull",
             "projectName": "JavaPractices_f98acbaf"
+>>>>>>> e89415b04fe5aad6e9bd7e298a4bdccfcc0bafd4
+>>>>>>> b72528ff485de6a9a5bdd5b8b18aa185ae500f8c
         },
         {
             "type": "java",
@@ -129,6 +219,7 @@
             "request": "launch",
             "mainClass": "Basic_Assignment.Floyds_Tri",
             "projectName": "JavaPractices_e2818b60"
+>>>>>>> cbee180fee9e7c36025a7ebe077a762a6d997bcc
         },
         {
             "type": "java",

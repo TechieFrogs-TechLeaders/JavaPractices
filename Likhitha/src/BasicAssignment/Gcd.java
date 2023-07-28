@@ -6,6 +6,8 @@ public class Gcd {
         while(a!=b) {
             if (a==0) {
                 System.out.println("Gcd" +b );
+                break;
+            }
             if (b==0) {
                 System.out.println("Gcd" +a);
             }
@@ -22,7 +24,7 @@ public class Gcd {
             }
 
             }
-        }
+        
 
     
 
