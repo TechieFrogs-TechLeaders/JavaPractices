@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class StringNextln{
     public static void main(String[] args){
         Scanner Scanobj = new Scanner(System.in);
-        System.out.println("Enter item AM");
+        System.out.println("Enter item ");
         String item = Scanobj.nextLine();
         
         System.out.print("item= " +item );

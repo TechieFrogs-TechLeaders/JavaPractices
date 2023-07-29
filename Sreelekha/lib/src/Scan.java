@@ -6,10 +6,17 @@ public class Scan {
         System.out.println("Enter your name");
         String name= Scanobj.next();
         System.out.println("Name is:" +name);
-        Scan.close();
+        Scanobj.close();
     }
 
     static void close() {
+    }
+
+    public static boolean hasNext() {
+        return false;
+    }
+
+    public static void next() {
     }
 
    
