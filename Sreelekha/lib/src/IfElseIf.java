@@ -1,4 +1,4 @@
-package lib.src;
+
 
 public class IfElseIf {
     
@@ -11,7 +11,7 @@ public class IfElseIf {
         System.out.println("negative");
         }
         else{
-            System.out.println("i is not present");
+            System.out.println("r is not present");
         }
     }
 }
