@@ -1,4 +1,4 @@
-package Classpratice;
+package Classpractice;
 public class Newprogram{
     public static void main(String[] args){
 

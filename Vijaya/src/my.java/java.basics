@@ -1,0 +1,15 @@
+public class main{ 
+   public static void main(String []args){
+    System.out.println("my favourite hero");
+
+}
+  class speech{
+    public static void main(String[]args){
+        System.out.println("to read well");
+
+  }
+      class thing{
+        public static void main(String[]args){
+            System.out.println("to measure rate of txtbooks");
+            
+      }
