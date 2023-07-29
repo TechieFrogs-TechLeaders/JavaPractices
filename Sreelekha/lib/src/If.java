@@ -1,3 +1,4 @@
+package lib.src;
 public class If {
 public static void main(String[] args) {
     int a = 25;
