@@ -8,7 +8,18 @@ public class Operaters {    public static void main(String args[]){
            System.out.println  (a +"  "+b+" "+c);
            
         System.out.println(++a - b++ * ++c);   //11-10 *21
-} 
+//bitwise or between10 and 25
+/**int number1 = 12,number2 = 25,result;
+    result = number1 | number2;
+    System.out.println(result);/* */
+  //  System.out.println(a&b);
+
+  //logical opereators
+  //logical And
+  System.out.println(a<b&&a>b);
+  System.out.println(a>b||a>b||a<c);
 }
+}
+
 
     
