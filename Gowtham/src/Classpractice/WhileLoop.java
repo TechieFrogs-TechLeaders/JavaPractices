@@ -1,4 +1,4 @@
-package Classpratice;
+package Classpractice;
 public class WhileLoop {
     public static void main(String[] args) {
         int i=15;
@@ -11,7 +11,7 @@ public class WhileLoop {
         do{
             System.out.println(j);
             j++;
-        }while(j>15);
+        }while(j<=15);
       
     }
 }
