@@ -1,0 +1,30 @@
+h3{
+   color: blue;
+   text-decoration: underline;
+}
+table{
+    border: dashed;
+    background-image: url("images/pic.jpg");
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}        
+.go{
+    color:white;
+    font-weight: bold;
+}
+.myheader{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+tr,td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#Hi{
+   width: 350px;
+   height: 178px;
+}
+
+
