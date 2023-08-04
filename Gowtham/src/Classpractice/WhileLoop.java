@@ -5,13 +5,19 @@ public class WhileLoop {
         while(i<=35){
             System.out.println(i);
            i++;
+           
         }
 
         int j=10;
         do{
-            System.out.println(j);
+         System.out.println(j);
             j++;
-        }while(j>15);
+        }while(j<=15);
+<<<<<<< HEAD
+=======
+        
+        
+>>>>>>> bcc5eb4df78a76b79996281772468e5c36bb7871
       
     }
 }
