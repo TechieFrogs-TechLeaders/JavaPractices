@@ -1,8 +1,13 @@
 package BasicAssignment;
 
+import java.util.Scanner;
+
 public class Palindrome {
     public static void main(String[] args) {
-        int n = 121,reminder,reverse=0,temp;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the palindrom");
+        int n = sc.nextInt();
+        int k = 121,reminder,reverse=0,temp;
         temp = n;
         while(n!=0){
         
@@ -14,10 +19,9 @@ public class Palindrome {
         {
             System.out.print("it is a pallindrom");
         }
-    }else{
+     } else{
         System.out.println("not a palindrom");
     }
+      sc.close();
 }
 }
-    
-

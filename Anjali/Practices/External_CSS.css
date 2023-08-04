@@ -1,0 +1,41 @@
+header{
+    font-size: 36;
+    color: blue;
+    padding: 30px;
+}
+section{
+    display: table;
+    clear: both;
+}
+nav{
+    float: left;
+    width: 30%;
+    height: 230px;
+    padding: 20px;
+}
+article{
+    float: right;
+    padding: 20px;
+    width: 70%; 
+    height: 230px;
+}
+footer{
+   padding: 20px;
+   text-align: center;
+}
+body{
+   background-color:greenyellow;
+   
+}
+#myheader{
+    background-color: aqua;
+}
+#go{
+    background-color: pink;
+}
+body{
+    background-image: url("images/pic.jpg");
+}
+.roll{
+    border-color: blueviolet;
+}
