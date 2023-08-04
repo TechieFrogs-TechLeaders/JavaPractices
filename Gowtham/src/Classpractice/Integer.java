@@ -1,4 +1,4 @@
-package Classpratice;
+package Classpractice;
 public class Integer {
     //interger program
     static int x=50;

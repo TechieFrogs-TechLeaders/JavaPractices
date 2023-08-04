@@ -4,7 +4,7 @@ public class Operators {
          //unary operators
          //Increament -prefix
          a=a+1;
-W         System.out.println(++a);
+        System.out.println(++a);
          //Decreament -prefix
          a=a-1;
          System.out.println(--a);

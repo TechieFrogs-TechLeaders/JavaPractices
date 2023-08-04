@@ -31,10 +31,10 @@ public class Scanner_Demo {
         System.out.println("the float values are :" +f1+"  "+f2);
 
         //Double
-        System.out.println("Enter the Double Values:");
-        double d1=Scobj.nextDouble();
-        double d2=Scobj.nextDouble();
-        System.out.println("The values are:"+d1+" "+d2);
+       // System.out.println("Enter the Double Values:");
+        //double d1=Scobj.nextDouble();
+        //double d2=Scobj.nextDouble();
+        //System.out.println("The values are:"+d1+" "+d2);
 
         //Boolean
         System.out.println("Enter Boolean values:");

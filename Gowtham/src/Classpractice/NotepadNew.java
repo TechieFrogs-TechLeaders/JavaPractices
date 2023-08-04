@@ -1,4 +1,4 @@
-package Classpratice;
+package Classpractice;
 class NotepadNew1{
     public static void main(String[] agrs){
         System.out.println("lets do this");

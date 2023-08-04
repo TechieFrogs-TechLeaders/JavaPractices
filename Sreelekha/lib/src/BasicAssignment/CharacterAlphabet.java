@@ -5,7 +5,7 @@ public class CharacterAlphabet {
         char C= 'A'; 
         if(C=='A'){
             System.out.println(C+ "is Alphabet");
-        }
+        }  
         else {
             System.out.println(C+ "is not Alphabet");
 
