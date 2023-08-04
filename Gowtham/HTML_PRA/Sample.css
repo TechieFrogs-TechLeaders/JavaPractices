@@ -1,0 +1,13 @@
+nav
+{
+    font-size:28;
+    font-style: italic;
+    color: aqua;
+    background-image:url('pictures/paint.jpg');
+}
+body{
+    background-image: url('pictures/stands.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
