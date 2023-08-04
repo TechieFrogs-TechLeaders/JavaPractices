@@ -8,6 +8,6 @@ import java.util.Scanner;
             System.out.println("Enter byte");
             byte b = input.nextByte();
             input.close();
-            System.out.println("Sum of values"+i+ " + " +b);    
+            System.out.println("Values are"+i+ " + " +b);    
     }
 }

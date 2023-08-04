@@ -7,14 +7,14 @@
     
     Scanner input = new Scanner(System.in);
       int i = input.nextInt();
-      boolean b = input.nextBoolean();
+     // boolean b = input.nextBoolean();
 
      System.out.println("Hi Hello");
       String s = input.next();
 
           input.close();
            
-           System.out.println("My Input Value Is " +i+" " +b+ " " +s);
+           System.out.println("My Input Value Is " +i+"  " +s);
 
 
   }
