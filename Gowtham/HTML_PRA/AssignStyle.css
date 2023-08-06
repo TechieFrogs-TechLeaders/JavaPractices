@@ -1,0 +1,56 @@
+h3{
+    color: blue;
+    text-decoration: underline;
+ }
+ table{
+     border: dashed;
+     background-image: url("pictures/red\ flower.jpg");
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+     
+     padding-left: 6px;
+     padding-right: 6px;
+     
+ }        
+ tr,td{
+     padding-top: 10px;
+     padding-bottom: 11px;
+     margin-top: 12px;
+     padding-left: 6px;
+     padding-right: 19px;
+ }
+ #Hi{
+    width: 350px;
+    height: 180px;
+ }
+ .mycss{
+     border-style: hidden;
+     width: 55%;
+ }
+ .mycs{
+     border-style: solid;
+     border-color: white;
+     width: 12%;
+     height:6%;
+ }
+ #m{
+     border-style: solid;
+     border-color: white;
+     width: 15%;
+     height:6%;
+ }
+ #it{
+     padding-left: 10%;
+ }
+ label{
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color:white;
+     font-weight:bold ;
+     font-size:small;
+ 
+ }
+ .my{
+     border-style: hidden;
+     padding: 5px 20px;
+     font-size: smaller;
+ }
