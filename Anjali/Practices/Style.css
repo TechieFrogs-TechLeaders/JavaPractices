@@ -1,0 +1,38 @@
+h3{
+   color: blue;
+   text-decoration: underline;
+}
+table{
+    border: dashed;
+    background-image: url("images/OIP\ \(4\).jpeg");
+    background-repeat: no-repeat;
+    background-size: 1000px 1000px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}        
+.go{
+    color:white;
+    font-weight: bold;
+}
+.myheader{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+tr,td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#Hi{
+   width: 350px;
+   height: 178px;
+}
+.mycss{
+    border-style: hidden;
+}
+.my{
+    border-style: solid;
+  border-color: white;
+}
+
