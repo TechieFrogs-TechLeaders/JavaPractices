@@ -4,7 +4,7 @@ h3{
  }
  table{
      border: dashed;
-     background-image: url("pictures/red\ flower.jpg");
+     background-image: url("pictures/blue\ mirror.jpg");
      background-repeat: no-repeat;
      background-size: 100% 100%;
      
@@ -23,33 +23,27 @@ h3{
     width: 350px;
     height: 180px;
  }
- .mycss{
+ .acss{
      border-style: hidden;
-     width: 55%;
+     width: 53%;
  }
- .mycs{
-     border-style: solid;
-     border-color: white;
-     width: 12%;
-     height:6%;
- }
- #m{
+ .acs{
      border-style: solid;
      border-color: white;
      width: 15%;
      height:6%;
  }
- #it{
+ #ok{
      padding-left: 10%;
  }
  label{
-     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
      color:white;
      font-weight:bold ;
      font-size:small;
  
  }
- .my{
+ .kk{
      border-style: hidden;
      padding: 5px 20px;
      font-size: smaller;
