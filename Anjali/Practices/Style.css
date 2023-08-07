@@ -1,28 +1,23 @@
 h3{
    color: blue;
    text-decoration: underline;
+   font-family:Verdana, Arial, Helvetica, sans-serif;
 }
 table{
     border: dashed;
-    background-image: url("images/OIP\ \(4\).jpeg");
     background-repeat: no-repeat;
-    background-size: 1000px 1000px;
-    padding-top: 10px;
+    background-image: url("images/G.jpeg");
+    background-size:100% 100%;
     padding-left: 5px;
     padding-right: 5px;
-    padding-bottom: 10px;
+    
 }        
-.go{
-    color:white;
-    font-weight: bold;
-}
-.myheader{
-    padding-top: 0;
-    padding-bottom: 0;
-}
 tr,td{
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-right: 20px;
 }
 #Hi{
    width: 350px;
@@ -30,9 +25,34 @@ tr,td{
 }
 .mycss{
     border-style: hidden;
+    width: 52%;
+}
+.mycs{
+    border-style: solid;
+    border-color: white;
+    width: 10%;
+    height:5%;
+}
+#m{
+    border-style: solid;
+    border-color: white;
+    width: 13%;
+    height:5%;
+}
+#it{
+    padding-left: 10%;
+}
+label{
+    font-family:Verdana, Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight:bold ;
+    font-size:small;
+
 }
 .my{
-    border-style: solid;
-  border-color: white;
+    border-style: hidden;
+    padding: 3px 20px;
+    font-size: smaller;
 }
+
 

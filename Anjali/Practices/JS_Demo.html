@@ -1,0 +1,23 @@
+
+<html>
+<body>
+
+Select a file to upload:
+<input type="file" name="" id="myFile"/>
+
+<p>Click the button to display the value of the name attribute of the input element.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo">"This is my paragraph tag with id name demo"</p>
+
+<script>
+function myFunction() 
+{
+  var x = document.getElementById("myFile").name;
+  document.getElementById("demo").innerHTML = '';
+}
+</script>
+
+</body>
+</html>
