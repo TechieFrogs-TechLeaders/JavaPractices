@@ -1,7 +1,3 @@
-<html>
-    <head><title>tables</title></head>
-    <body>
-        <script>
             var i=5;
             var j=10;
             var sum=i+j;
@@ -40,27 +36,3 @@
             x += n;
             console.log(n)
             }
-        </script>
-        <table border="4"  cellpadding="5" cellspacing="5" bordercolor="yellow"  background="pictures/pic2.jpg">
-            <tr>
-                <td>Name 1</td>
-                <td>Marks</td>
-            </tr>
-            <tr>
-                <td rowspan="2">Rajesh</td>
-                <td>50/60</td>
-            </tr>
-            <tr>
-                <td rowspan="2">cindy</td>
-                <td>53/60</td>
-            </tr>
-            <tr>
-                <td >jessica</td>
-                <td>47/60</td>
-            </tr>
-            
-
-
-        </table>
-    </body>
-</html>

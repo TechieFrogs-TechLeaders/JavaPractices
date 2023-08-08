@@ -1,0 +1,36 @@
+<html>
+<body> 
+<script type="text/javascript">
+    function matchpass(){  
+    var name=document.f1.name.value;  
+    var password=document.f1.password.value;          
+    var firstpassword=document.f1.password.value;  
+    var secondpassword=document.f1.password2.value;  
+
+    if (name==null || name==""){  
+    alert("Name can't be blank");  
+    return false;  
+    }
+    else if(password.length<6){  
+    alert("Password must be at least 6 characters long.");  
+    return false;  
+    }  
+    if(firstpassword==secondpassword){  
+    return true;  
+    }  
+    else{  
+    alert("password must be same!");  
+    return false;  
+    } 
+} 
+</script>  
+    <form name="f1" method="post" action="abc.jsp" onsubmit="return matchpass()"> 
+        Name: <input type="text" name="name"><br/> 
+        Password:<input type="password" name="password" /><br/>  
+        Re-enter Password:<input type="password" name="password2"/><br/>  
+        <input type="submit"> 
+    </form>              
+</body>
+</html>
+
+
