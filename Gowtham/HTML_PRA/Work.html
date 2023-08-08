@@ -2,6 +2,7 @@
     <head>
         <title>this was an assignment form</title>
         <link rel="stylesheet" type="text/css" href="AssignStyle.css">
+        <script src="Validation.js"></script>
     </head>
     <body>
         <center>
@@ -17,6 +18,7 @@
                 <td>
                     <input type="text" name="First Name" placeholder="Ghanendra" class="acss" required/>
                     <label>(Max 50 Characters Allowed)</label>
+                    <label id="err" hidden>please fill this field</label>
                 </td>   
             </tr>
             <tr>
@@ -26,6 +28,7 @@
                 <td>
                     <input type="text" name="Last Name" placeholder="yadav" class="acss"/>
                     <label>(Max 50 Characters Allowed)</label>
+                    <label id="hr" hidden>please fill this field</label>
                 </td>                
             </tr>
             <tr>
@@ -34,6 +37,7 @@
                 </td>
                 <td>
                     <input type="text" name="Email" placeholder="yghanendra@gmail.com" class="acss"/>
+                    <label id="ir" hidden>please fill this field</label>
                 </td>                                                   
             </tr>
             <tr>
@@ -43,6 +47,7 @@
                 <td>                
                     <input type="text" name="Mobile Number" placeholder="7842xxxxxx" class="acss"/>
                     <label>(10 Digits Allowed)</label>
+                    <label id="kr" hidden>please fill this field</label>
                 </td>
             </tr>
             <tr>
@@ -172,7 +177,8 @@
                     <label>Address:</label>
                 </td>
                 <td>
-                    <textarea name="Address" id="hi" class="acss"></textarea> 
+                    <textarea name="Address" id="hi" class="acss"></textarea>
+                    <label id="rr" hidden>please fill this field</label> 
                 </td>
             </tr>
             <tr>
@@ -182,6 +188,7 @@
                 <td>
                     <input size="text" name="City" placeholder="bangalore" class="acss"/>
                     <label>(Max 50 Characters Allowed)</label>
+                    <label id="rrr" hidden>please fill this field</label>
                 </td>
             </tr>
             <tr>
@@ -191,6 +198,7 @@
                 <td>
                     <input size="text" name="Pin Code" placeholder="560068" class="acss"/>
                     <label>(Max 6 Characters Allowed)</label>
+                    <label id="lr" hidden>please fill this field</label>
                 </td>
             </tr>
             <tr>
@@ -200,6 +208,7 @@
                 <td>
                     <input size="text" name="State" placeholder="karnataka" class="acss"/>
                     <label>(Max 50 Characters Allowed)</label>
+                    <label id="cr" hidden>please fill this field</label>
                 </td>                
             </tr>
             <tr>
@@ -208,6 +217,7 @@
                 </td>
                 <td>
                     <input type="text" name="Country" placeholder="India" class="acss"/>
+                    <label id="tr" hidden>please fill this field</label>
                 </td>
             </tr>
             <tr>
@@ -256,8 +266,8 @@
                     
                 </td>
                 <td id="ok">
-                    <input type="submit" name="submit" value="submit" class="kk"/>
-                    <input type="reset" name="reset" value="reset" class="kk"/>
+                    <input type="submit" name="submit" value="submit" onclick="validation()" class="kk"/>
+                    <input type="reset" name="reset" value="reset" onclick="validation()" class="kk"/>
                 </td> 
             </tr>            
         </form>   
