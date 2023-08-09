@@ -186,9 +186,9 @@
                     <label>City</label>
                 </td>
                 <td>
-                    <input size="text" name="City" placeholder="bangalore" class="acss"/>
+                    <input type="text" name="City" id="city" placeholder="bangalore" class="acss"/>
                     <label>(Max 50 Characters Allowed)</label>
-                    <label id="rrr" hidden>please fill this field</label>
+                    <label id="x" hidden>please fill this field</label>
                 </td>
             </tr>
             <tr>
@@ -196,7 +196,7 @@
                     <label>Pin Code</label>
                 </td>
                 <td>
-                    <input size="text" name="Pin Code" placeholder="560068" class="acss"/>
+                    <input type="text" id="PinCode" placeholder="560068" class="acss"/>
                     <label>(Max 6 Characters Allowed)</label>
                     <label id="lr" hidden>please fill this field</label>
                 </td>
@@ -206,7 +206,7 @@
                     <label>State</label>
                 </td>
                 <td>
-                    <input size="text" name="State" placeholder="karnataka" class="acss"/>
+                    <input type="text" name="State" placeholder="karnataka" class="acss"/>
                     <label>(Max 50 Characters Allowed)</label>
                     <label id="cr" hidden>please fill this field</label>
                 </td>                
@@ -239,11 +239,12 @@
                     <label>Qualification</label>
                 </td>
                 <td>
-                    <input type="checkbox" name="Highschool" value="on"/><label>High School(10th)</label><br>
-                    <input type="checkbox" name="Highschool" value="on"/><label>High School(12th)</label><br>              
-                    <input type="checkbox" name="college" value="on"/><label>Graduation(bachelors)</label><br>              
-                    <input type="checkbox" name="University" value="on"/><label>post Graduation(masters)</label><br>             
-                    <input type="checkbox" name="University" value="on"/><label>Phd</label><br>        
+                    <input type="checkbox" id="highschool" value="on"/><label>High School(10th)</label><br>
+                    <input type="checkbox" id="inter" value="on"/><label>High School(12th)</label><br>              
+                    <input type="checkbox" id="college" value="on"/><label>Graduation(bachelors)</label><br>              
+                    <input type="checkbox" id="university" value="on"/><label>post Graduation(masters)</label><br>             
+                    <input type="checkbox" id="phd" value="on"/><label>Phd</label><br>   
+                    <span id="checkbox"></span>     
                 </td>
             </tr>                  
             <tr>
