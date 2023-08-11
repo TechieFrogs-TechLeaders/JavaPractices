@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donation Form</title>
+<link rel="stylesheet" href="Donation.css">
+</head>
+<body>
+  <h1>Donation Form</h1>
+  
+  <form id="donationForm" action="#" method="post">
+    <fieldset>
+      <legend>Contact Information</legend>
+      <table>
+        <tr>
+          <td>First Name:</td>
+          <td><input type="text" name="firstName" required></td>
+          <td>Last Name:</td>
+          <td><input type="text" name="lastName" required></td>
+        </tr>
+        <tr>
+          <td>Email Address:</td>
+          <td><input type="email" name="email" required></td>
+          <td>Phone Number:</td>
+          <td><input type="tel" name="phone" required></td>
+        </tr>
+        <tr>
+          <td>Street Address:</td>
+          <td><input type="text" name="streetAddress" required></td>
+          <td>City:</td>
+          <td><input type="text" name="city" required></td>
+        </tr>
+        <tr>
+          <td>Zip/Postal Code:</td>
+          <td><input type="text" name="zipCode" required></td>
+          <td>Country:</td>
+          <td><input type="text" name="country" required></td>
+        </tr>
+      </table>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Donation Details</legend>
+      <table>
+        <tr>
+          <td>May we thank you publicly?</td>
+          <td>
+            <input type="checkbox" id="publicThanks" name="publicThanks" required>
+            <label for="publicThanks">No, please keep my information anonymous</label><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Donation Amount:</td>
+          <td><input type="text" id="donationAmount" name="donationAmount" required></td>
+        </tr>
+        <tr>
+          <td>Donation Comment:</td>
+          <td><textarea id="donationComment" name="donationComment" required></textarea></td>
+        </tr>
+      </table>
+    </fieldset>
+    
+    <center><button type="submit">Confirm Order</button></center> 
+  </form>
+
+  <script src="Donation.js"></script>
+</body>
+</html>

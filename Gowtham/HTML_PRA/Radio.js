@@ -1,5 +1,5 @@
 function checkForm() {
-    let chosenOption = "";
+    let chosenOption ="";
     const len = document.userForm.gender.length;
 
     for (i = 0; i < len; i++) {

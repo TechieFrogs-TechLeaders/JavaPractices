@@ -1,4 +1,4 @@
-<htm>
+<html>
     <head>
         <title>this was an assignment form</title>
         <link rel="stylesheet" type="text/css" href="AssignStyle.css">
@@ -10,58 +10,58 @@
         </center>
         <center>
         <table>
-        <form class="meto">
+        <form name="meto">
             <tr>
                 <td>
-                    <label>First Name</label>
+                    <span>First Name</span>
                 </td> 
                 <td>
-                    <input type="text" name="First Name" placeholder="Ghanendra" class="acss" required/>
-                    <label>(Max 50 Characters Allowed)</label>
-                    <label id="err" hidden>please fill this field</label>
+                    <input type="text" id="FirstName" placeholder="Ghanendra" class="acss" maxlength="50" required/>
+                    <span>(Max 50 Characters Allowed)</span>
+                    <span id="err" hidden></span>
                 </td>   
             </tr>
             <tr>
                 <td>
-                    <label>Last Name</label>
+                    <span>Last Name</span>
                 </td>
                 <td>
-                    <input type="text" name="Last Name" placeholder="yadav" class="acss"/>
-                    <label>(Max 50 Characters Allowed)</label>
-                    <label id="hr" hidden>please fill this field</label>
+                    <input type="text" id="LastName" placeholder="yadav" class="acss" maxlength="50" required/>
+                    <span>(Max 50 Characters Allowed)</span>
+                    <span id="hr" hidden></span>
                 </td>                
             </tr>
             <tr>
                 <td>
-                    <label>Email ID</label>
+                    <span>Email ID</span>
                 </td>
                 <td>
-                    <input type="text" name="Email" placeholder="yghanendra@gmail.com" class="acss"/>
-                    <label id="ir" hidden>please fill this field</label>
+                    <input type="text" id="Email" placeholder="yghanendra@gmail.com" class="acss" required/>
+                    <span id="ir" hidden></span>
                 </td>                                                   
             </tr>
             <tr>
                 <td>
-                    <label>Mobile Number</label>
+                    <span>Mobile Number</span>
                 </td>
                 <td>                
-                    <input type="text" name="Mobile Number" placeholder="7842xxxxxx" class="acss"/>
-                    <label>(10 Digits Allowed)</label>
-                    <label id="kr" hidden>please fill this field</label>
+                    <input type="text" id="MobileNumber" placeholder="7842xxxxxx" class="acss" maxlength="10" required/>
+                    <span>(10 Digits Allowed)</span>
+                    <span id="kr" hidden></span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label>Gender</label>
+                    <span>Gender</span>
                 </td>
                 <td>
-                    <input type="radio" name="Male" value="Male"/><label class="go">Male</label>
-                    <input type="radio" name="Female" value="Female"/><label class="go">Female</label>
+                    <input type="radio" id="male" name="Male" value="Male"/><span class="go">Male</span>
+                    <input type="radio" id="female" name="Female" value="Female"/><span class="go">Female</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label>Date of Birth(DOB)</label>
+                    <span>Date of Birth(DOB)</span>
                 </td>
                 <td>
                     <select name="dropdown" class="acs">
@@ -174,92 +174,93 @@
             </tr>
             <tr>
                 <td>
-                    <label>Address:</label>
+                    <span>Address:</span>
                 </td>
                 <td>
-                    <textarea name="Address" id="hi" class="acss"></textarea>
-                    <label id="rr" hidden>please fill this field</label> 
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>City</label>
-                </td>
-                <td>
-                    <input type="text" name="City" id="city" placeholder="bangalore" class="acss"/>
-                    <label>(Max 50 Characters Allowed)</label>
-                    <label id="x" hidden>please fill this field</label>
+                    <textarea name="Address" id="Address" class="acss" required></textarea>
+                    <span id="rr" hidden>fill this form</span> 
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label>Pin Code</label>
+                    <span>City</span>
                 </td>
                 <td>
-                    <input type="text" id="PinCode" placeholder="560068" class="acss"/>
-                    <label>(Max 6 Characters Allowed)</label>
-                    <label id="lr" hidden>please fill this field</label>
+                    <input type="text" id="city" placeholder="bangalore" class="acss" maxlength="50" required/>
+                    <span>(Max 50 Characters Allowed)</span>
+                    <span id="x" hidden></span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label>State</label>
+                    <span>Pin Code</span>
                 </td>
                 <td>
-                    <input type="text" name="State" placeholder="karnataka" class="acss"/>
-                    <label>(Max 50 Characters Allowed)</label>
-                    <label id="cr" hidden>please fill this field</label>
+                    <input type="text" id="PinCode" placeholder="560068" class="acss" maxlength="6" required/>
+                    <span>(Max 6 Characters Allowed)</span>
+                    <span id="lr" hidden></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>State</span>
+                </td>
+                <td>
+                    <input type="text" id="State" placeholder="karnataka" class="acss" maxlength="50" required/>
+                    <span>(Max 50 Characters Allowed)</span>
+                    <span id="cr" hidden></span>
                 </td>                
             </tr>
             <tr>
                 <td>
-                    <label>Country</label>
+                    <span>Country</span>
                 </td>
                 <td>
-                    <input type="text" name="Country" placeholder="India" class="acss"/>
-                    <label id="tr" hidden>please fill this field</label>
+                    <input type="text" id="Country" placeholder="India" class="acss" required/>
+                    <span id="tr" hidden></span>
                 </td>
             </tr>
             <tr>
                 <td class="Header">
-                    <label>Hobbies</label>
+                    <span>Hobbies</span>
                 </td>
-                <td>
-                    <input type="checkbox" name="Drawing" value="on"/><label class="go">Drawing</label>
-                    <input type="checkbox" name="Singing" value="on"/><label class="go">Singing</label>
-                    <input type="checkbox" name="Dancing" value="on"/><label class="go">Dancing</label>
-                    <input type="checkbox" name="Sketching" value="on"/><label class="go">Sketching</label><br>
-                    <input type="checkbox" name="Others" value="on"/><label class="go">Others</label>
-                    <input type="text" name="Others" placeholder="Ex- Teaching" class="acss"/>
-                    <label>(Max 50 Characters Allowed)</label>
+                <td >
+                    <input type="checkbox" name="Drawing" value="on"/><span class="go">Drawing</span>
+                    <input type="checkbox" name="Singing" value="on"/><span class="go">Singing</span>
+                    <input type="checkbox" name="Dancing" value="on"/><span class="go">Dancing</span>
+                    <input type="checkbox" name="Sketching" value="on"/><span class="go">Sketching</span><br>
+                    <input type="checkbox" name="Others" value="on"/><span class="go">Others</span>
+                    <input type="text" name="Others" placeholder="Ex- Teaching" class="acss" maxlength="50" required/>
+                    <span>(Max 50 Characters Allowed)</span>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <label>Qualification</label>
+                    <span>Qualification</span>
                 </td>
                 <td>
-                    <input type="checkbox" id="highschool" value="on"/><label>High School(10th)</label><br>
-                    <input type="checkbox" id="inter" value="on"/><label>High School(12th)</label><br>              
-                    <input type="checkbox" id="college" value="on"/><label>Graduation(bachelors)</label><br>              
-                    <input type="checkbox" id="university" value="on"/><label>post Graduation(masters)</label><br>             
-                    <input type="checkbox" id="phd" value="on"/><label>Phd</label><br>   
+                    <input type="checkbox" id="highschool" value="on"/><span>High School(10th)</span><br>
+                    <input type="checkbox" id="inter" value="on"/><span>High School(12th)</span><br>              
+                    <input type="checkbox" id="college" value="on"/><span>Graduation(bachelors)</span><br>              
+                    <input type="checkbox" id="university" value="on"/><span>post Graduation(masters)</span><br>             
+                    <input type="checkbox" id="phd" value="on"/><span>Phd</span><br>   
                     <span id="checkbox"></span>     
                 </td>
             </tr>                  
             <tr>
                 <td>
-                    <label>Courses Applied For</label>
+                    <span>Courses Applied For</span>
                 </td>
                 <td>
-                    <input type="radio" id="BCA" name="grad" value="BCA"/><label>BCA(bachelors of Computer Applicatins)</label><br>              
-                    <input type="radio" id="B.com" name="grad" value="B.com"/><label>B.com(bachelors of Commerce)</label><br>               
-                    <input type="radio" id="B.Sc" name="grad" value="B.sc"/><label>B.Sc(bachelors of Science)><br>              
-                    <input type="radio" id="BA" name="grad" value="BA"/><label>BA(bachelors of Arts)</label><br>              
-                    <input type="radio" id="MCA" name="grad" value="MCA"/><label>MCA(Master of Computer Applicatins)</label><br>             
-                    <input type="radio" id="M.com" name="grad" value="M.com"/><label>M.com(Masterof Commerce)</label><br>             
-                    <input type="radio" id="M.Sc" name="grad" value="M.sc"/><label>M.Sc(Master of science)</label><br>
-                    <input type="radio" id="MA" name="grad" value="MA"/><label>MA(Master of Arts)</label><br>
+                    <input type="radio" id="BCA" name="grad" value="BCA"/><span>BCA(bachelors of Computer Applicatins)</span><br>              
+                    <input type="radio" id="B.com" name="grad" value="B.com"/><span>B.com(bachelors of Commerce)</span><br>               
+                    <input type="radio" id="B.Sc" name="grad" value="B.sc"/><span>B.Sc(bachelors of Science)><br>              
+                    <input type="radio" id="BA" name="grad" value="BA"/><span>BA(bachelors of Arts)</span><br>              
+                    <input type="radio" id="MCA" name="grad" value="MCA"/><span>MCA(Master of Computer Applicatins)</span><br>             
+                    <input type="radio" id="M.com" name="grad" value="M.com"/><span>M.com(Masterof Commerce)</span><br>             
+                    <input type="radio" id="M.Sc" name="grad" value="M.sc"/><span>M.Sc(Master of science)</span><br>
+                    <input type="radio" id="MA" name="grad" value="MA"/><span>MA(Master of Arts)</span><br>
+                    <span id="cap"></span>
                 </td> 
             </tr>
             <tr>
@@ -267,12 +268,12 @@
                     
                 </td>
                 <td id="ok">
-                    <input type="submit" name="submit" value="submit" onclick="validation()" class="kk"/>
-                    <input type="reset" name="reset" value="reset" onclick="validation()" class="kk"/>
+                    <input type="submit" name="submit" value="submit" class="kk" onclick="return validation()" />
+                    <input type="reset" name="reset" value="reset" class="kk"/>
                 </td> 
             </tr>            
         </form>   
         </table>
     </center>
     </body>
-</htm>
+</html>

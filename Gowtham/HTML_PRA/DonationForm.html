@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Donation Form</title>
+<link rel="stylesheet" href="Donation.css">
+</head>
+<body>
+<img src="C:\Users\gowtham ch\Desktop\Donation_img.jpg" id="image">
+  <fieldset>
+  <legend class="gg">Donation Form</legend>
+  <form id="donationForm" action="#" method="post">
+    <table>
+      <tr>
+        <td>First Name<sup>*</sup></td>
+        <td>Last Name<sup>*</sup></td>
+      </tr>
+      <tr> 
+        <td ><input type="text" name="firstName"class="name" required></td>
+        <td><input type="text" name="lastName" class="name" required></td>
+      </tr>
+      <tr>
+        <td>Email Address<sup>*</sup></td>
+        <td>Phone Number</td>
+      </tr>
+      <tr>
+        <td><input type="email" name="email" required></td>
+        <td><input type="tel" name="phone" required></td>
+      </tr>
+      <tr>
+        <td>Street Address</td>
+        <td>City:</td>
+      </tr>
+      <tr>
+        <td><input type="text" name="streetAddress" required></td>
+        <td><input type="text" name="city" required></td>
+      </tr>
+      <tr>
+        <td>Zip/Postal Code</td>
+        <td>Country</td>
+        </tr>
+        <tr>
+        <td><input type="text" name="zipCode" required></td>
+        <td><input type="text" name="country" required></td>
+      </tr>
+    </table>
+    </fieldset>
+    <fieldset>
+    <table><legend class="gg">Donation Details</legend>
+    <tr>
+      <td><label class="rrr"> May we thank you publicly?</label>  </td>
+      </tr>
+          <tr>
+            <td>
+          <input type="checkbox" id="publicThanks" name="publicThanks" required/>
+          <label for="publicThanks">No, please keep my information anonymous</label>
+        </td>
+        </tr>
+        <tr>
+        <td><label>Donation Amount<sup>*</sup></label></td>
+        </tr>
+        <tr>
+        <td><input type="text" id="donationAmount" name="donationAmount" required></td>
+      </tr>
+      <tr>
+        <td>Donation Comments</td>
+        </tr>
+        <tr>
+        <td><textarea id="donationComment" name="donationComment" required></textarea></td><br>
+      </tr>
+    </table>
+  </fieldset>
+  <center><button type="submit" class="pg">Confirm Order</button></center> 
+  </form>
+  
+  <script src="Donation.js"></script>
+</body>
+</html>
+   

@@ -13,11 +13,7 @@ public class WhileLoop {
          System.out.println(j);
             j++;
         }while(j<=15);
-<<<<<<< HEAD
-=======
-        
-        
->>>>>>> bcc5eb4df78a76b79996281772468e5c36bb7871
+
       
     }
 }
