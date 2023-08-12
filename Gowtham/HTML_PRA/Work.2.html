@@ -1,0 +1,182 @@
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" type="text/css" href="AssignStyle.css">
+    <script src="Validate2.js"></script>
+</head>
+<body>
+    <center>
+        <h3>Student Registration Form Using Table In HTML</h3>
+    </center>
+    <center>
+        <table>
+            <form class="meto">
+                <tr>
+                    <td>
+                        <label>First Name</label>
+                    </td> 
+                    <td>
+                        <input type="text" name="First Name" placeholder="Ghanendra" class="acss" required/>
+                        <label>(Max 50 Characters Allowed)</label>
+                        <label id="err" hidden>Please fill this field</label>
+                    </td>   
+                </tr>
+                <tr>
+                    <td>
+                        <label>Last Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="Last Name" placeholder="Yadav" class="acss"/>
+                        <label>(Max 50 Characters Allowed)</label>
+                        <label id="hr" hidden>Please fill this field</label>
+                    </td>                
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email ID</label>
+                    </td>
+                    <td>
+                        <input type="text" name="Email" placeholder="yghanendra@gmail.com" class="acss"/>
+                        <label id="ir" hidden>Please fill this field</label>
+                    </td>                                                   
+                </tr>
+                <tr>
+                    <td>
+                        <label>Mobile Number</label>
+                    </td>
+                    <td>                
+                        <input type="text" name="Mobile Number" placeholder="7842xxxxxx" class="acss"/>
+                        <label>(10 Digits Allowed)</label>
+                        <label id="kr" hidden>Please fill this field</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="Male" value="Male"/><label class="go">Male</label>
+                        <input type="radio" name="Female" value="Female"/><label class="go">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Date of Birth(DOB)</label>
+                    </td>
+                    <td>
+                        <select name="dropdown" class="acs">
+                            <option value="none" selected disabled hidden>Day</option>
+                            <!-- Add day options here -->
+                        </select>
+                        <select name="dropdown" id="acs">
+                            <option value="none" selected disabled hidden>Month</option>
+                            <!-- Add month options here -->
+                        </select>
+                        <select name="dropdown" class="acs">
+                            <option value="none" selected disabled hidden>Year</option>
+                            <!-- Add year options here -->
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Address:</label>
+                    </td>
+                    <td>
+                        <textarea name="Address" id="hi" class="acss"></textarea>
+                        <label id="rr" hidden>Please fill this field</label> 
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>City</label>
+                    </td>
+                    <td>
+                        <input type="text" name="City" id="city" placeholder="Bangalore" class="acss"/>
+                        <label>(Max 50 Characters Allowed)</label>
+                        <label id="x" hidden>Please fill this field</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Pin Code</label>
+                    </td>
+                    <td>
+                        <input type="text" id="PinCode" placeholder="560068" class="acss"/>
+                        <label>(Max 6 Characters Allowed)</label>
+                        <label id="lr" hidden>Please fill this field</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>State</label>
+                    </td>
+                    <td>
+                        <input type="text" name="State" placeholder="Karnataka" class="acss"/>
+                        <label>(Max 50 Characters Allowed)</label>
+                        <label id="cr" hidden>Please fill this field</label>
+                    </td>                
+                </tr>
+                <tr>
+                    <td>
+                        <label>Country</label>
+                    </td>
+                    <td>
+                        <input type="text" name="Country" placeholder="India" class="acss"/>
+                        <label id="tr" hidden>Please fill this field</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="Header">
+                        <label>Hobbies</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="HobbyDrawing" value="on"/><label class="go">Drawing</label>
+                        <input type="checkbox" name="HobbySinging" value="on"/><label class="go">Singing</label>
+                        <input type="checkbox" name="HobbyDancing" value="on"/><label class="go">Dancing</label>
+                        <input type="checkbox" name="HobbySketching" value="on"/><label class="go">Sketching</label><br>
+                        <input type="checkbox" name="HobbyOthers" value="on"/><label class="go">Others</label>
+                        <input type="text" name="OtherHobby" placeholder="Ex- Teaching" class="acss"/>
+                        <label>(Max 50 Characters Allowed)</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Qualification</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="highschool" value="on"/><label>High School (10th)</label><br>
+                        <input type="checkbox" id="inter" value="on"/><label>High School (12th)</label><br>              
+                        <input type="checkbox" id="college" value="on"/><label>Graduation (Bachelors)</label><br>              
+                        <input type="checkbox" id="university" value="on"/><label>Post Graduation (Masters)</label><br>             
+                        <input type="checkbox" id="phd" value="on"/><label>PhD</label><br>   
+                        <span id="qualificationError" hidden>Please select at least one qualification</span>     
+                    </td>
+                </tr>                  
+                <tr>
+                    <td>
+                        <label>Courses Applied For</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="BCA" name="grad" value="BCA"/><label>BCA (Bachelors of Computer Applications)</label><br>              
+                        <input type="radio" id="B.com" name="grad" value="B.com"/><label>B.com (Bachelors of Commerce)</label><br>               
+                        <input type="radio" id="B.Sc" name="grad" value="B.sc"/><label>B.Sc (Bachelors of Science)</label><br>              
+                        <input type="radio" id="BA" name="grad" value="BA"/><label>BA (Bachelors of Arts)</label><br>              
+                        <input type="radio" id="MCA" name="grad" value="MCA"/><label>MCA (Master of Computer Applications)</label><br>             
+                        <input type="radio" id="M.com" name="grad" value="M.com"/><label>M.com (Master of Commerce)</label><br>             
+                        <input type="radio" id="M.Sc" name="grad" value="M.sc"/><label>M.Sc (Master of Science)</label><br>
+                        <input type="radio" id="MA" name="grad" value="MA"/><label>MA (Master of Arts)</label><br>
+                    </td> 
+                </tr>
+                <tr>
+                    <td></td>
+                    <td id="ok">
+                        <input type="submit" name="submit" value="Submit" onclick="validation()" class="kk"/>
+                        <input type="reset" name="reset" value="Reset" class="kk"/>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </center>
+</body>
+</html>
