@@ -15,7 +15,7 @@
       lastName: "Doe",
       age:19,
       id: 5566,
-      fullName: function() {
+      fullName: ()=> {   //or function(){   //this can be used as an alternative ()=> for function
         return this.firstName + " " + this.lastName; //property containing function is a method
       }        //this is used to refer property of object
     };
@@ -26,7 +26,8 @@
     // Display data from the object:
     document.getElementById("demoobj").innerHTML = persons.fullName();
     document.getElementById("hello").innerHTML = persons.fullName;
-    document.getElementById("arrdemo").innerHTML = persons.fruits;
+    document.getElementById("arrdemo").innerHTML =fruits;
+    document.write(fruits);
     </script>
     
     <p>An object method is a function definition, stored as a property value.</p>
