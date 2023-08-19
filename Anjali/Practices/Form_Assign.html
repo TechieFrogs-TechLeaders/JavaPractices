@@ -12,15 +12,16 @@
         </center>
         <center>   
         <table>
-        <form onsubmit="return validation()" name="myform">     
+        <form name="myform">     
             <tr>
                 <td>
                     <label >First Name</label>
                 </td>
                 <td>
-                    <input type="text" name="First Name" placeholder="Ghanendra" class="mycss" maxlength="10" required/>
-                    <label>(Max 50 Characters Allowed)</label><br>
-                    <label id="err" hidden>Please fill the field</label>
+                    <input type="text" name="FirstName" placeholder="Ghanendra" class="mycss" maxlength="50" required/>
+                    <label>(Max 50 Characters Allowed)</label>
+                <!-- <label id="err" hidden>Please fill the field</label> m-->
+                    <span id="name">the </span>
                 </td>   
             </tr>
             <tr>
@@ -28,7 +29,7 @@
                     <label>Last Name</label>
                 </td>
                 <td>
-                    <input type="text" name="Last Name" placeholder="Yadav" class="mycss"/>
+                    <input type="text" name="LastName" placeholder="Yadav" id="lname" class="mycss" maxlength="50" required/>
                     <label>(Max 50 Characters Allowed)</label>
                     <span id="error"></span>
                 </td>    
@@ -38,8 +39,8 @@
                     <label>Email ID</label>
                 </td>
                 <td>
-                    <input type="text" name="Email ID" placeholder="yghanendra@gmail.com" class="mycss"/><br>
-                    <span id="error m"></span>
+                    <input type="text" name="EmailID" id="emaile" placeholder="yghanendra@gmail.com" class="mycss"/><br>
+                    <span id="emailerr"></span>
                 </td>    
             </tr>
             <tr>
@@ -47,9 +48,9 @@
                     <label>Mobile Number</label>
                 </td>
                 <td>
-                    <input type="text" name="Mobile Number" placeholder="7842xxxxxx" class="mycss"/>
+                    <input type="text" name="MobileNumber" placeholder="7842xxxxxx" id="pnum" class="mycss" maxlength="10" required/>
                     <label>(10 Digits Allowed)</label><br>
-                    <span id="error me"></span>
+                    <span id="phonenum"></span>
                 </td>   
             </tr>
             <tr>
@@ -59,7 +60,7 @@
                 <td>
                     <input type="radio" id="male" name="gender" value="male"/><label class="go">Male</label>
                     <input type="radio" id="female" name="gender" value="female" /><label class="go">Female</label><br>
-                    <span id="error mes"></span>
+                    <span id="rgender"></span>
                 </td>
             </tr>
             <tr>
@@ -68,7 +69,7 @@
                                                                                                        
                 </td>
                 <td>
-                    <select name="dropdown"  class="mycs">
+                    <select name="dropdown" id="dateErr" class="mycs">
                         <option value="none" selected disabled hidden>Day</option>
                         <option value="01">01</option>
                         <option value="02">02</option>
@@ -102,8 +103,8 @@
                         <option value="30">30</option>
                         <option value="31">31</option>
                     </select>
-                    <span id="error mess"></span>
-                    <select name="dropdown"  id="m">
+                    <span id="date"></span>
+                    <select name="dropdown"  id="mon">
                         <option value="none" selected disabled hidden>Month</option>
                         <option value="01">January</option>
                         <option value="02">February</option>
@@ -118,8 +119,8 @@
                         <option value="11">November</option>
                         <option value="12">December</option>
                     </select>
-                    <span id="error messa"></span>
-                    <select name="dropdown"  class="mycs">
+                    <span id="month"></span>
+                    <select name="dropdown" id="yearerr" class="mycs">
                         <option value="none" selected disabled hidden>Year</option>
                         <option value="1940">1940</option>
                         <option value="1941">1941</option>
@@ -206,7 +207,7 @@
                         <option value="2022">2022</option>
                         <option value="2023">2023</option>
                     </select><br>
-                    <span id="error messag"></span>
+                    <span id="year"></span>
                 </td>
             </tr>
             <tr>
@@ -215,7 +216,7 @@
                 </td>
                 <td>
                     <textarea name="Adress" id="Hi" class="mycss"></textarea>
-                    <span id="error message"></span>
+                    <span id="adderr"></span>
                 </td>
             </tr>
             <tr>
@@ -223,8 +224,9 @@
                     <label>City</label>
                 </td>
                 <td>
-                    <input type="text" name="City" placeholder="Bangalore" class="mycss"/>
+                    <input type="text" name="City" placeholder="Bangalore" class="mycss" maxlength="50" required/>
                     <label>(Max 50 Characters Allowed)</label>
+                    <span id="city"></span>
                 </td>    
             </tr>
             <tr>
@@ -232,9 +234,9 @@
                     <label>Pin Code</label>
                 </td>
                 <td>
-                    <input type="text" name="Pin Code" placeholder="560068" maxlength="6" class="mycss" required/>
+                    <input type="text" name="Pin Code" placeholder="560068" id="pin" class="mycss" maxlength="6" required/>
                     <label>(Max 6 Characters Allowed)</label>
-                    <span id="hello"></span>
+                    <span id="pincode"></span>
                 </td>
             </tr>
             <tr>
@@ -244,6 +246,7 @@
                 <td>
                     <input type="text" name="State" placeholder="Karnataka" class="mycss" maxlength="50" required/>
                     <label>(Max 50 Characters Allowed)</label>
+                    <span id="stateerr"></span>
                 </td>   
             </tr>
             <tr>
@@ -252,6 +255,7 @@
                 </td>
                 <td>
                     <input type="text" name="Country" placeholder="India" class="mycss" required/>
+                    <span id="countryerr"></span>
                 </td>    
             </tr>
             <tr >
@@ -260,12 +264,13 @@
                 </td>
                 <td class="myheader">
                     <input type="checkbox" name="Drawing" value="on"/><label class="go" >Drawing</label>
-                    <input type="checkbox" name="Singing" value="on"/><label class="go">Singing</label>
-                    <input type="checkbox" name="Dancing" value="on"/><label class="go">Dancing</label>
-                    <input type="checkbox" name="Sketching" value="on"/><label class="go">Sketching</label><br>
-                    <input type="checkbox" name="Others" value="on"/><label class="go">Others</label>
-                    <input type="text" name="OthersS" placeholder="Ex- Teaching" class="mycss"/>
+                    <input type="checkbox" name="Drawing" value="on"/><label class="go">Singing</label>
+                    <input type="checkbox" name="Drawing" value="on"/><label class="go">Dancing</label>
+                    <input type="checkbox" name="Drawing" value="on"/><label class="go">Sketching</label><br>
+                    <input type="checkbox" name="Drawing" value="on"/><label class="go">Others</label>
+                    <input type="text" name="Drawing" placeholder="Ex- Teaching" class="mycss"  maxlength="50" required/>
                     <label>(Max 50 Characters Allowed)</label>
+                    <span id="hoo"></span>
                 </td>     
             </tr>
             <tr >
@@ -278,6 +283,7 @@
                     <input type="checkbox" name="Highb" id="graduate" value="on"/><label>Graduation(Bachelors)</label><br>
                     <input type="checkbox" name="Highg" id="post" value="on"/><label>Post Graduation(Masters)</label><br>
                     <input type="checkbox" name="Highp" id="phd" value="on"/><label>Phd</label>
+                    <span id="checkbox"></span>
                 </td>
             </tr>
             <tr >
@@ -293,6 +299,7 @@
                     <input type="radio" id="M.Com" name="drown" value="M.Com"/><label>M.Com(Masters of Commerce)</label><br>
                     <input type="radio" id="M.Sc" name="drown" value="M.Sc"/><label>M.Sc(Masters of Science)</label><br>
                     <input type="radio" id="MA" name="drown" value="MA"/><label>MA(Masters of Arts)</label>
+                    <span id="radio"></span>
                 </td>
             </tr>
             <tr>
@@ -300,8 +307,8 @@
 
                 </td>
                 <td id="it">
-                    <input type="submit" name="submit" value="Submit" class="my"/>
-                    <input type="reset" name="reset"  value="Reset" onclick="validation()" class="my" />
+                    <input type="button" name="submit" value="Submit" class="my" onclick="return validation()"/>
+                    <input type="reset" name="reset"  value="Reset" class="my" />
                 </td>    
             </tr>
             </form>                         

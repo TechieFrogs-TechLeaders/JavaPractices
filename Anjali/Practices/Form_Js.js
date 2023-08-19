@@ -1,54 +1,104 @@
 function validation(){
-    var a=document.myform.drown.length;
-    console.log("in course"+a);
-
-    document.getElementById("err").hidden=false;
-    document.getElementById("err").style.color="red";
-    document.getElementById("error").innerHTML="Please fill the field";
-    document.getElementById("error").style.color="red";
-    document.getElementById("error m").innerHTML="Please fill the field";
-    document.getElementById("error m").style.color="red";
-    document.getElementById("error me").innerHTML="Please fill the field";
-    document.getElementById("error me").style.color="red";
-    document.getElementById("error mes").innerHTML="Please fill the fild";
-    document.getElementById("error mes").style.color="red";
-    document.getElementById("error mess").innerHTML="Please Select a Date";
-    document.getElementById("error mess").style.color="red";
-    document.getElementById("error messa").innerHTML="Please Select a Month";
-    document.getElementById("error messa").style.color="red";
-    document.getElementById("error messag").innerHTML="Please Select a Year";
-    document.getElementById("error messag").style.color="red";
-    document.getElementById("error message").innerHTML="Please Write Adress";
-    document.getElementById("error message").style.color="red";
-    let x=document.forms["myform"]["City"].value;
-    if (x == "") {
-        alert("City must be filled out");
-        return false;
+    //First Name
+    var fname=document.forms["myform"]["FirstName"].value.trim();
+    if(fname == ""){
+        //alert("City must be filled out");
+        document.getElementById("name").innerHTML="Name must be filled out";
+        document.getElementById("name").style.color="red";
+        //return false;
     }
-    let y=document.forms["myform"]["Pin Code"].value;
+    //Last Name
+    var lname=document.getElementById("lname").value.trim();
+    if(lname == ""){
+        //alert("City must be filled out");
+        document.getElementById("error").innerHTML="Name must be filled out";
+        document.getElementById("error").style.color="red";
+        //return false;
+    }
+     //email
+     var email=document.getElementById("emaile").value;
+     let emailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+     if(!emailformat.test(email))
+     {
+      //alert("Valid email address!");
+      document.getElementById("emailerr").innerHTML="Please Enter a valid email";
+      document.getElementById("emailerr").style.color="red";
+      //return false;
+     }
+     //Phone Number
+    var num=document.getElementById("pnum").value;
+    let phone=/^[0-9]{10}$/;
+    if(!phone.test(num))
+    {
+     document.getElementById("phonenum").innerHTML="Please Enter a valid Mobile Number";
+     document.getElementById("phonenum").style.color="red";
+     //return false;
+    }
+    //Radio button Gender
+    var gen=document.getElementsByName("gender");
+    var gendernErr=false;
+    for(let i=0;i<gen.length;i++){
+        if(gen[i].checked){
+            gendernErr=true;
+            break;
+        }
+    }
+    if(!gendernErr==true){
+        document.getElementById("rgender").innerHTML="Please Select one Gender";
+        document.getElementById("rgender").style.color="red";
+    }
+    //Address
+    let add=document.forms["myform"]["Adress"].value.trim(); //(or)document.getElementById(---name).value //to check value is there and to get the value
+    if(add == "") {
+        //alert("City must be filled out");
+        document.getElementById("adderr").innerHTML="Please enter your address";
+        document.getElementById("adderr").style.color="red";
+        //return false;
+    }
+    //city
+    let x=document.forms["myform"]["City"].value.trim(); 
+    if(x == "") {
+        //alert("City must be filled out");
+        document.getElementById("city").innerHTML="City must be filled out";
+        document.getElementById("city").style.color="red";
+        //return false;
+    }
+    //pin code
+    let y=document.forms["myform"]["Pin Code"].value.trim();
     if(y==""){
-       alert("Pin Code must be filled out");
+       //alert("Pin Code must be filled out");
+        document.getElementById("pincode").innerHTML="pin code must be filled out";
+        document.getElementById("pincode").style.color="red";
+        //return false;  (return is to stop the submission while using onsubmit without filling the fields and not required for onclick )
     }
-    /*var z=document.forms["myform"]["High"].value;
-    if(z[0].checked==false||z[1].checked==false||z[2].checked==false||z[3].checked==false){
-        alert("Select any value");
-        return false;
+    //State
+    let country=document.forms["myform"]["State"].value.trim();
+    if( country ==""){
+        document.getElementById("stateerr").innerHTML="Field is empty Enter your current State";
+        document.getElementById("stateerr").style.color="red";
+        //return false;  
     }
-    var cbox = document.forms["myform"]["High"].value;
-    if (
-      cbox[0].checked == false &&
-      cbox[1].checked == false &&
-      cbox[2].checked == false &&
-      cbox[3].checked == false &&
-      cbox[4].checked == false
-    ) {
-      alert("Please Select Gender");
-      return false;
-    } else {
-      alert("Successfully Submited");
-      return true;
-    }*/
-    //checkbox
+    //Country
+    let state=document.forms["myform"]["Country"].value.trim();
+    if(state ==""){
+        document.getElementById("countryerr").innerHTML="Field is empty Enter your current Country";
+        document.getElementById("countryerr").style.color="red";
+        //return false;  
+    }
+    //checkbox Hobbies
+    var hobbie=document.getElementsByName("Drawing");
+    var hobbiesErr=false;
+    for(var i=0;i<hobbie.length;i++){
+        if(hobbie[i].checked){
+            hobbiesErr=true;
+            break;
+        }
+    }
+    if(!hobbiesErr==true){
+        document.getElementById("hoo").innerHTML="Please select atleast one Hobbie";
+        document.getElementById("hoo").style.color="red";
+    }
+    //checkbox Qualification
     var val=false;
     if(document.getElementById("high").checked){
         val=true;
@@ -66,32 +116,57 @@ function validation(){
         val=true;
     }
     else{
-       // alert("Please select atleast one Qualification");
-        console.log("pls enter qual");
-        val=true;
+       //alert("Please select atleast one Qualification");
+       document.getElementById("checkbox").innerHTML="Please select atleast one Qualification";
+       document.getElementById("checkbox").style.color="red";
+       console.log("pls enter qual");
+       //val=false;
     }
-    //radio button
-   var valid=false;//valid=flag assuming false
-   // var a=document.myform.drown.length;
-    //console.log("in course"+a);
+    
+    //radio button Course
+    var btn=document.getElementsByName("drown");
+    var buttonerr=false;
+    for(let i=0;i<btn.length;i++){
+        if(btn[i].checked){
+            buttonerr=true;
+            break;
+        }
+    }
+    if(!buttonerr==true){
+        document.getElementById("radio").innerHTML="Please Select one course";
+        document.getElementById("radio").style.color="red";
+    }
+   
+    
+    //Pin Code
+    var pcode=document.getElementById("pin").value;
+    let code=/^[0-9]{6}$/;
+    if(!code.test(pcode))
+    {
+     document.getElementById("pincode").innerHTML="Please Enter a valid Pin Code";
+     document.getElementById("pincode").style.color="red";
+     //return false;
+    }
+   
+    //dropdown day month year
 
-    for(var i=0;i<a;i++){
-        console.log(a[i]);
-        if(a[i].checked){
-        valid=true;
-        break; //it is enough to select one
-    }
-    }
-    if(valid==false){
-        console.log("pls enter course");
-    }
-
+    var daydropdown=document.forms["myform"]["dropdown"][0];
+    var monthdropdown=document.forms["myform"]["dropdown"][1];
+    var yeardropdown=document.forms["myform"]["dropdown"][2];
+    console.log("dropdown "+daydropdown );
+     if(daydropdown.value ==="none"){
+        console.log("down");
+        document.getElementById("date").innerHTML="Select Date";
+        document.getElementById("date").style.color="red";
+     }
+     if(monthdropdown.value ==="none"){
+        document.getElementById("month").innerHTML="Select month";
+        document.getElementById("month").style.color="red";
+    } 
+    if(yeardropdown.value ==="none"){
+        //console.log("down");
+        document.getElementById("year").innerHTML="Select year";
+        document.getElementById("year").style.color="red";
+       }
+      
 }
-
-
-/*function myblur(){
-    console.log("in blur");
-    document.getElementById("fname").style.borderColor = "red";
-    document.getElementById("fname").style.color = "blue";
-
-}*/
