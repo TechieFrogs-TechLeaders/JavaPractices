@@ -1,78 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+<meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Donation Form</title>
-<link rel="stylesheet" href="Donation.css">
+<link rel="stylesheet" type="text/css" href="Donation.css">
 </head>
 <body>
-<img src="C:\Users\gowtham ch\Desktop\Donation_img.jpg" id="image">
+  <div class="container">
+    <img  class="image" src="pictures/hands.jpg" alt="Your Image">
+    <div class="image-text">Donation Form</div>
+  </div>
+  <div class="form-container"><br>
   <fieldset>
-  <legend class="gg">Donation Form</legend>
+  <legend class="details">Donation Form</legend>
   <form id="donationForm" action="#" method="post">
     <table>
-      <tr>
-        <td>First Name<sup>*</sup></td>
-        <td>Last Name<sup>*</sup></td>
+      <tr class="form-row">
+        <td ><label>First Name<sup>*</sup></label></td>
+        <td class="gap"><label>Last Name<sup>*</sup></label></td>
       </tr>
-      <tr> 
-        <td ><input type="text" name="firstName"class="name" required></td>
-        <td><input type="text" name="lastName" class="name" required></td>
-      </tr>
-      <tr>
-        <td>Email Address<sup>*</sup></td>
-        <td>Phone Number</td>
+      <tr class="form-row"> 
+        <td><input type="text" name="firstName"class="name" required></td>
+        <td class="gap"><input type="text" name="lastName" class="name" required></td>
       </tr>
       <tr>
-        <td><input type="email" name="email" required></td>
-        <td><input type="tel" name="phone" required></td>
+        <td><label>Email Address<sup>*</sup></label></td>
+        <td class="gap"><label>Phone Number</label></td>
       </tr>
       <tr>
-        <td>Street Address</td>
-        <td>City:</td>
+        <td ><input type="email" id="email" required>
+        <span id="mail"></span>
+      </td>
+        <td class="gap"><input type="tel" id="mobile" required>
+        <span id="phoneid"></span>
+      </td>
       </tr>
       <tr>
-        <td><input type="text" name="streetAddress" required></td>
-        <td><input type="text" name="city" required></td>
+        <td><label>Street Address</label></td>
+        <td class="gap"><label>City</label></td>
       </tr>
       <tr>
-        <td>Zip/Postal Code</td>
-        <td>Country</td>
+        <td ><input type="text" name="streetAddress" required></td>
+        <td class="gap"><input type="text" name="city" required></td>
+      </tr>
+      <tr>
+        <td ><label>Zip/Postal Code</label></td>
+        <td class="gap"><label>Country</label></td>
         </tr>
         <tr>
-        <td><input type="text" name="zipCode" required></td>
-        <td><input type="text" name="country" required></td>
+        <td ><input type="text" name="zipCode" required></td>
+        <td class="gap"><input type="text" name="country" required></td>
       </tr>
     </table>
-    </fieldset>
-    <fieldset>
-    <table><legend class="gg">Donation Details</legend>
+    </fieldset><br>
+    <fieldset><legend class="details">Donation Details</legend>
+    <table>
     <tr>
-      <td><label class="rrr"> May we thank you publicly?</label>  </td>
+      <td><label> May we thank you publicly?</label></td>
       </tr>
           <tr>
-            <td>
-          <input type="checkbox" id="publicThanks" name="publicThanks" required/>
+            <td class="form-row">
+              <input type="checkbox" id="publicThanks" name="publicThanks" required/>
           <label for="publicThanks">No, please keep my information anonymous</label>
         </td>
         </tr>
-        <tr>
-        <td><label>Donation Amount<sup>*</sup></label></td>
+        <tr >
+        <td class="form-row"><label>Donation Amount<sup>*</sup></label></td>
         </tr>
-        <tr>
+        <tr >
         <td><input type="text" id="donationAmount" name="donationAmount" required></td>
       </tr>
       <tr>
-        <td>Donation Comments</td>
+        <td class="form-row"><label> Donation Comments</label></td>
         </tr>
         <tr>
-        <td><textarea id="donationComment" name="donationComment" required></textarea></td><br>
+        <td ><textarea id="donationComment" name="donationComment" required></textarea></td>
       </tr>
     </table>
   </fieldset>
-  <center><button type="submit" class="pg">Confirm Order</button></center> 
+  <center><button type="submit" class="thank" onclick="return validation()">Confirm Order</button></center> 
   </form>
+</div>
   
   <script src="Donation.js"></script>
 </body>

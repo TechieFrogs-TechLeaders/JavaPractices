@@ -1,0 +1,110 @@
+html>
+<head>
+<style>
+  .image-container {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .image {
+    width: 100%;
+    max-height: 300px;
+  }
+
+  .image-text {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+  }
+
+  .form-container {
+    padding-left: 10px;
+  }
+
+  .name {
+    width: 150px;
+  }
+
+  .form-row {
+    margin-bottom: 20px;
+  }
+
+  .details {
+    white-space: nowrap;
+    min-width: 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+  }
+
+  /* Highlight labels, checkboxes, and textareas */
+  .highlight {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px;
+  }
+
+  /* Add space between lines in Donation Amount section */
+  .donation-section .highlight {
+    margin-bottom: 10px;
+  }
+
+  /* Style for section headers */
+  .section-header {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+</style>
+</head>
+<body>
+
+<div class="image-container">
+  <img class="image" src="your-image.jpg" alt="Your Image">
+  <div class="image-text">Hello, World!</div>
+</div>
+
+<div class="form-container">
+  <form>
+    <fieldset>
+      <legend class="details">Donation Details</legend>
+      <table>
+        <tr class="form-row">
+          <td><label class="highlight"> May we thank you publicly?</label></td>
+        </tr>
+        <tr class="form-row">
+          <td>
+            <input type="checkbox" id="publicThanks" name="publicThanks" class="highlight" required/>
+            <label for="publicThanks" class="highlight">No, please keep my information anonymous</label>
+          </td>
+        </tr>
+        <tr class="form-row donation-section">
+          <td><label class="highlight section-header">Donation Amount<sup>*</sup></label></td>
+        </tr>
+        <tr class="form-row donation-section">
+          <td><input type="text" id="donationAmount" name="donationAmount" class="highlight" required></td>
+        </tr>
+      </table>
+      
+      <table>
+        <tr class="form-row donation-section">
+          <td><label class="highlight section-header">Donation Comments</label></td>
+        </tr>
+        <tr class="form-row donation-section">
+          <td><textarea id="donationComment" name="donationComment" class="highlight" required></textarea></td>
+        </tr>
+      </table>
+      
+    </fieldset>
+    <center><button type="submit" class="thank" onclick="return validation()">Confirm Order</button></center> 
+  </form>
+</div>
+
+</body>
+</html>

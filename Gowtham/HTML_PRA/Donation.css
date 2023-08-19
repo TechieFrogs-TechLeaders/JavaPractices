@@ -1,16 +1,10 @@
 body {
     font-family: Arial, sans-serif;
   }
-  #image{
-    width: 100%;
-    height: 10%;
-  }
+ 
   table {
     border-collapse: collapse;
     width: 100%;
-  }
-  
-  table{
     border: 1px solid white;
     padding: 5px; /* Adjusted padding for a more compact layout */
   }
@@ -36,7 +30,8 @@ body {
     box-sizing: border-box;
   }
  .name{
-  padding-left: 20px;
+ /*padding-left: 20px;*/
+ width: 150px;
  }
   input[type=email], select {
     width: 100%;
@@ -65,8 +60,8 @@ body {
     border-radius: 4px;
     box-sizing: border-box;
   }
-  .gg {
-    width: 8%;
+  .details {
+    
     background-color: rgb(6, 6, 112);
     color: white;
     padding: 10px 25px;
@@ -74,20 +69,59 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+      white-space: nowrap; /* Prevent text from wrapping */
+      
   }
-  .pg {
+  .thank {
     width: 10%;
     background-color: rgb(6, 6, 112);
     color: white;
     padding: 10px 25px;
+    text-size-adjust: none;
+    text-align: justify-all;
+    white-space: nowrap; /* Prevent text from wrapping */
+    min-width: 150px; /* Set a minimum width for the text */
     margin: 8px 0;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
-  label{
-    padding-top:10% ;
+  .height{
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
+  } 
+  .image{
+    width: 100%;
+    max-height: 300px;
+    image-rendering: auto;
+    white-space: nowrap; /* Prevent text from wrapping */
+      min-width: 100px; /* Set a minimum width for the text */
+  
   }
-  .rrr{
-    padding-top: 10%;
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: rgb(235, 16, 16);
+  }
+  .image-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: xxx-large;
+    white-space: nowrap; /* Prevent text from wrapping */
+      min-width: 100px; /* Set a minimum width for the text */
+  }
+  .form-container {
+    padding-left: 10px;
+  }
+  .form-row {
+    /* Add margin between form rows */
+    padding-top: 10px;
+  }
+  .gap{
+    padding-left: 30px;
   }
