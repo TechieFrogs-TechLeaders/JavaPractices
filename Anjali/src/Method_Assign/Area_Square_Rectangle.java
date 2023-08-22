@@ -5,7 +5,7 @@ public class Area_Square_Rectangle {
     public String s = "Hello";
    // private int num = 3;
     protected int a  = 5 ;
-    public char[] areaofsquare;
+    
    static double area_Square_Rectangle(double length, double breadth){
         return length*breadth;
        // System.out.println();
