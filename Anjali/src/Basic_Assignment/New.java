@@ -21,6 +21,7 @@ public class New {
         }else{
             System.out.println("The num is not Armstrong:"+temp);
         }
+        sc.close();
     }
     
 }

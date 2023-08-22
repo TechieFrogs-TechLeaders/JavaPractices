@@ -8,9 +8,9 @@ public class CompareOpDemo {
     {
         long l=9477777777777l;
         byte e=-3;
-        short s=-9;
-        boolean b1=true;
-        boolean b2=false;
+        //short s=-9;
+        //boolean b1=true;
+       // boolean b2=false;
         System.out.println("For integers all compareop;");
         System.out.println("For int : "+(a==b));
         System.out.println(a>~i);
