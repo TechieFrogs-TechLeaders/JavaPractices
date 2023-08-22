@@ -1,16 +1,21 @@
 package Method_Assign;
 
 public class Area_Square_Rectangle {
-    double area_Square_Rectangle(double length, double breadth){
+    static int i = 4;
+    public String s = "Hello";
+    private int num = 3;
+    protected int a  = 5 ;
+    public char[] areaofsquare;
+   static double area_Square_Rectangle(double length, double breadth){
         return length*breadth;
        // System.out.println();
     }
-    int area_Square_Rectangle(int side){
+    protected int area_Square_Rectangle(int side){
         return side*side;
     }
     public static void main(String[] args) {
         Area_Square_Rectangle myarea = new Area_Square_Rectangle();
-        double area = myarea.area_Square_Rectangle(4,7);
+        double area =area_Square_Rectangle(4,7);
         System.out.println("The area of rectangle: "+area);
         int areaofsquare = myarea.area_Square_Rectangle(10); 
         System.out.println("The area of Square: "+areaofsquare);
