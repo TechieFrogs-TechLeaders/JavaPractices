@@ -7,9 +7,9 @@ public class Triangle {
     double area = Math.pow((s*(s-a)*(s-b)*(s-c)),0.5);
     public static void main(String[] args) {
         Triangle myobj = new Triangle();
-       // myobj.a = 3;
-       // myobj.b = 4;
-        //myobj.c = 5;
+        // myobj.a = 3;
+        // myobj.b = 4;
+        // myobj.c = 5;
         System.out.println("parameter:"+myobj.parameter);
         System.out.println("area:"+myobj.area);
         }

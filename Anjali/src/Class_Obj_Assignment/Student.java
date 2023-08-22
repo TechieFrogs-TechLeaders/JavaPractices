@@ -3,6 +3,9 @@ package Class_Obj_Assignment;
 public class Student {
     String name;
     private int roll_no;
+    private Student(){
+        System.out.println("Student details:");
+    }
     public static void main(String[] args) {
         Student myobj = new Student();
         myobj.name = "John";
