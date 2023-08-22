@@ -6,7 +6,7 @@ public class Student1 {
     long phone_no;
     String address;
     public static void main(String[] args) {
-        //Student myobj2 = new Student();
+        //Student myobj2 = new Student(); //Since the class is private it is not visible
         //myobj1.roll_no;  //Cannot access private variables
         Student1 myobj = new Student1();
         myobj.name = "Sam";
