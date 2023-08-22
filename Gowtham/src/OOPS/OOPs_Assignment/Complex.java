@@ -1,6 +1,5 @@
 package OOPS.OOPs_Assignment;
 import java.util.Scanner;      //9
-
 public class Complex {
     private double real;
     private double imaginary;
