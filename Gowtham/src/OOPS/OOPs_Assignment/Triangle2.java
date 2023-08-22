@@ -3,10 +3,10 @@ public class Triangle2 {       //4
         int a ,b , c;
         int parameter;
         double s , area;
-        Triangle2(int a,int b,int c){
-            this.a = a;
-            this.b = b;
-            this.c = c;
+        Triangle2(int x,int y,int z){
+            a = x;
+            b = y;
+            c = z;
             parameter = a+b+c;
             s= parameter / 2 ;
             area = Math.pow((s*(s-a)*(s-b)*(s-c)),0.5);

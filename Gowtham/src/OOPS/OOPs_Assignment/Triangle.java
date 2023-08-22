@@ -7,7 +7,7 @@ public class Triangle {         //3
     public static void main(String[] args) {
         Triangle myobj = new Triangle();
        // myobj.a = 3;
-        System.out.println("parameter:"+myobj.parameter);
+        System.out.println("perimeter:"+myobj.parameter);
         System.out.println("area:"+myobj.area);
         }
 }
