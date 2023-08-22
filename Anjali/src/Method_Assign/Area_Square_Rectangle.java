@@ -1,7 +1,7 @@
 package Method_Assign;
 
 public class Area_Square_Rectangle {
-    static int i = 4;
+    public static int i = 4;
     public String s = "Hello";
     private int num = 3;
     protected int a  = 5 ;
