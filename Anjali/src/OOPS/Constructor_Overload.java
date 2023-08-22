@@ -38,7 +38,7 @@ public class Constructor_Overload {
         this.s = s;
     }
     Constructor_Overload(int a,String s,int b){
-        this(3,5);
+        this(a,b);//we can also give parameters in it if local
         System.out.println("int string int");
         this.i = a;
         this.j = b;
