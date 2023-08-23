@@ -19,6 +19,9 @@ public class My
 /**A Program can have many classes but only one public class and only one main method */
 class My3
 {
-  void o;
+  public static void main(String[] args) {
+    System.out.println("Hi");
+  }
+  
 }
 

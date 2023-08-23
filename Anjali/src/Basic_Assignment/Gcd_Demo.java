@@ -22,7 +22,7 @@ public class Gcd_Demo {
 
         }System.out.println("The Gcd of num1:"+num1+"  num2:"+num2+"  is "+gcd);
 
-
+    scan.close();
     }
     
 }

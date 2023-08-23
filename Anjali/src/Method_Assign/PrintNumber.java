@@ -22,7 +22,10 @@ public class PrintNumber {
         return true;
     }
     String printn(String s){
+        if(s == "World") 
         return s;
+        else
+        return s; //in control state we can use multiple return types if not only one return type
     }
     public static void main(String[] args) {
         PrintNumber printobj = new PrintNumber();

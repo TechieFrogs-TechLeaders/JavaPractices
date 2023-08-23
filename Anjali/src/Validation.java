@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Validation {
     public static void main(String[] args) {
-        int num;
+        //int num;
         Scanner sc=new Scanner(System.in);
         //while (sc.hasNext()) {
             

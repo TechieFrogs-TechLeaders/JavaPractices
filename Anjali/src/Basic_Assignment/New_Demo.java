@@ -14,5 +14,6 @@ public class New_Demo {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

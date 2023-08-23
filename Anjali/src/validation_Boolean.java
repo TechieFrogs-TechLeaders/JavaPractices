@@ -8,6 +8,7 @@ public class validation_Boolean {
             System.out.println("The value is not Boolean! Enter correct value");
             scan.next();
         }
+        scan.close();
     }
     
 }

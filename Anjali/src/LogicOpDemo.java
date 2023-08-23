@@ -7,8 +7,8 @@ public class LogicOpDemo {
         long l=9477777777777l;
         byte e=-3;
         short s=-9;
-        boolean b1=true;
-        boolean b2=false;
+        //boolean b1=true;
+        //boolean b2=false;
         //System.out.println(a&&b);
         //System.out.println(a||b);
         System.out.println("Logical operators can only used for conditions");
@@ -20,10 +20,10 @@ public class LogicOpDemo {
         System.out.println(a>b&&b>i);
         System.out.println(a>b&&b>i);
         System.out.println("it can also be used for foat and int :" + (a>f&&b<i));
-        System.out.println("All float and doble values: "+(3.4<3&&5.4>6));
-        System.out.println(3.4<3.3&&5.4>6.5);
+       // System.out.println("All float and doble values: "+(3.4<3&&5.4>6));
+       // System.out.println(3.4<3.3&&5.4>6.5);
         System.out.println("Negative numbers directly:"+(-2>-5&&-5<6.4));
-        System.out.println(4.6<-3&&c>l);
+        System.out.println(4.6<-3);
         System.out.println("All floating (float,double) values:"+(f>d&&d<f));
         System.out.println(d>f&&a<b);//it takes vriables and values of integers and floating points
         System.out.println("For long values and char and negative value :"+(l>a&&s<c));
@@ -45,7 +45,7 @@ public class LogicOpDemo {
         System.out.println("it can also be used for foat and int :" + (a>f||b<i));
         System.out.println("All float and doble values: "+(3.4<3||5.4>6));
         System.out.println(3.4<3.3||5.4>6.5);
-        System.out.println("Negative numbers directly:"+(-2>-5||-5<6.4));
+        System.out.println("Negative numbers directly:"+(-2>-5));
         System.out.println(4.6<-3||c>l);
         System.out.println("All floating (float,double) values:"+(f>d||d<f));
         System.out.println(d>f||a<b);//it takes vriables and values of integers and floating points

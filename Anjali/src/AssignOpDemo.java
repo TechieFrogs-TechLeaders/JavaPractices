@@ -7,10 +7,10 @@ public class AssignOpDemo {
     public static void main(String[] args) 
     {
         long l=9477777777777l;
-        byte e=-3;
+       // byte e=-3;
         short s=-9;
-        boolean b1=true;
-        boolean b2=false;
+       // boolean b1=true;
+        //boolean b2=false;
         System.out.println("int values :"+(a+=b));//a=2,b=4 (a+b=2+4=6)
         System.out.println(a-=i);//a=6,i=8 (6-8=-2)
         System.out.println("int and float :" +(a+=f));//a=-2,f=3.8  (1.8)  //it took integer value instead of float
