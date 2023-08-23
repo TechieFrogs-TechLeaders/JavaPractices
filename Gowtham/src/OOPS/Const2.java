@@ -1,3 +1,5 @@
+package OOPS;
+
 class Const2{  
     int id;  
     String name;    

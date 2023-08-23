@@ -1,3 +1,5 @@
+package OOPS;
+
 class Student{  
     int id;  
     String name;  
