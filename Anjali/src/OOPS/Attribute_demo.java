@@ -11,7 +11,7 @@ public class Attribute_demo {
         System.out.println(myobj.x);
 
 
-        //from method assign
+        //from method_assign folder
         Area_Square_Rectangle myarea = new Area_Square_Rectangle();
         System.out.println(Area_Square_Rectangle.i); //Static
         System.out.println(myarea.s); //public
