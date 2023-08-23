@@ -1,5 +1,6 @@
-package OOPS.OOPs_Assignment;
-import java.util.Scanner;      //9
+package OOPS.Redo;
+
+import java.util.Scanner;
 public class Complex {
     private double real;
     private double imaginary;
@@ -53,4 +54,3 @@ public class Complex {
         scanner.close();
     }
 }
-

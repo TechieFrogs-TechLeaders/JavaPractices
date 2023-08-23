@@ -15,8 +15,7 @@ class ConstructorOverload{
         this.i=a;
     }
     ConstructorOverload(int a, int c, String s){
-        //this("kaching",33,69);
-        System.out.println("int,int,string");//
+        System.out.println("int,int,string");
         this.i=a;
         this.j=c;
         this.s=s;
