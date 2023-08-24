@@ -8,6 +8,7 @@ public class Super_Keyword {
     public void newMethod(int a ,int b){
         String color = "Purple";
         System.out.println(color);
+        System.out.println("The sum in super class :"+ (a+b));
     }
 }
 class Middle_class extends Super_Keyword{
@@ -16,7 +17,7 @@ class Middle_class extends Super_Keyword{
         System.out.println(color);
         System.out.println("Hierarchical inheritance");
         super.newMethod(3,5);
-        System.out.println(super.t);
+        System.out.println("The super value"+super.t);
     }
 }
 
@@ -35,6 +36,7 @@ class Sub_class extends Super_Keyword{
 
 class Additional extends Sub_class{
     public void newMethod(){
+        super.newMethod();
         System.out.println("This is multilevel");
         super.newMethod();
     }
