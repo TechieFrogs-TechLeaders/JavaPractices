@@ -21,12 +21,12 @@ public class Rectangle {
 }
     class Square extends Rectangle{
 
-        Square(int s) {
+        public Square(int s) {
             super(s, s);
            
         }
         public static void main(String[] args) {
-         Square mySquare = new Square(7);
+        Square mySquare = new Square(7);
         double sperimeter = mySquare.rectanglePerimeter();
         double sarea = mySquare.rectangleArea();
         System.out.println("perimeter:"+sperimeter+"    Area:"+sarea);

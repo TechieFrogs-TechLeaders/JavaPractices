@@ -1,12 +1,13 @@
 package Method_Assign;
 
 class A{
-    public static void parent_Demo(){
+     static void parent(){
         System.out.println("Parent");
     }
 }
-class B extends A{
-    public static void parent_Demo(){
+
+class B {
+     static void parent1(){
         System.out.println("Child");
     }
 }
@@ -14,8 +15,9 @@ class B extends A{
 public class Method_Ass {
     public static void main(String[] args) {
         //A myobj = new A();
-       // A myobj1 = new B();
-       // A.parent();
-        B.parent_Demo();
+       // B myobj1 = new B();
+        A.parent();
+        B.parent1();
+        //myobj1.parent1();
     }
 }

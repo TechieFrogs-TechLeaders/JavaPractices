@@ -1,38 +1,38 @@
 package Inheritance_Assign;
 
- /*class Inheritance {
+ class Inheritance {
     public void shape(){
         System.out.println("This is shape");
     }
 }
-class Rectangle extends Inheritance{
+class Rectangle1 extends Inheritance{
     public void shapRectangle(){
         System.out.println("This is Rectangle shap");
     }
 }
 
-class Circle extends Inheritance{
+class Circle2 extends Inheritance{
     public void shapCircle(){
         System.out.println("This is circle shape");
     }
 }
-class Square1 extends Rectangle{
+class Square1 extends Rectangle1{
     public void squareRectangle(){
         System.out.println("Square is a rectangle");
     }
 }
 
 
-public class Shape{
+public class Main{
     public static void main(String[] args) {
         Square1 square = new Square1();
         square.shapRectangle();
         square.shape();
         
     }
-} */
+} 
 
-class Shape {
+/*class Shape {
     public void printShape() {
         System.out.println("This is shape");
     }
@@ -64,5 +64,5 @@ public class Main {
         mysquare.printShape();  // Calls Square's printShape() method
         mysquare.printShape();  // Calls Rectangle's printShape() method (inherited)
     }
-}
+}*/
 
