@@ -18,6 +18,11 @@ public class Final_Demo {
     Final_Demo(){
          System.out.println("From parent");
     }
+    final void  method1(int a ,int b){
+          a = 6;
+          b = 5;
+          System.out.println(a + "  "+b);
+    }
     
 }
 
@@ -39,6 +44,7 @@ class Final_1 extends Final_Demo{
 
     public static void main(String[] args) {
         final Final_1 myobj = new Final_1(); //cannot be assigned since final
+        myobj.method1(3, 5);
        // Final_1 my = new Final_1();
        // myobj = my;
       System.out.println(myobj.i); 
