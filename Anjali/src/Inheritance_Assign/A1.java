@@ -21,8 +21,8 @@ class B extends A{
         this.k = k;
     }
 
-    public void show(){
-        super.show();
+    public void show(){ //signature should be same except access modifier can be different the child should have higher visibility
+         super.show();
         System.out.println("k :"+k);
     }
 }

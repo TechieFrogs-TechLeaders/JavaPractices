@@ -41,7 +41,7 @@ class Additional extends Sub_class{
         super.newMethod();
     }
 }
-class Final_Class{
+class Final_Class1{
     public static void main(String[] args) {
         Sub_class myobj = new Sub_class();
         myobj.newMethod();
