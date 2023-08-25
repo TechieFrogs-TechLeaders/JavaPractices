@@ -1,17 +1,21 @@
 package OOPS;
 
-abstract class MyClass {
+ abstract  class MyClass {
     static int b = 67; 
     final int c = 45 ;
     static final int f ;
     static{
         f = 56;
     }
-    void super_Method(){
+    private void super_Method(){ //we can put the method private but is of no use because we can only use it in the abstract class only but we cant initialize/no obj so waste to put it in private
         System.out.println("Super method");
     }
+    MyClass(){
+        System.out.println("I am a grand-parent constructor");
+    }
 
-    abstract void myAbstractMethod();
+     abstract void myAbstractMethod();
+    
 }
 
 public abstract class Abstract_Class extends MyClass {
@@ -21,6 +25,9 @@ public abstract class Abstract_Class extends MyClass {
         c = 89;
     }*/
     //static final int f = 34;
+    Abstract_Class(){
+        System.out.println("I am parent constructor");
+    }
     void myAbstractMethod(){
         System.out.println("GrandParent class Abstract method in Parent class");
     }
@@ -42,6 +49,7 @@ class NewClass extends Abstract_Class{
        // throw new UnsupportedOperationException("Unimplemented method 'abstractMethod'");
         //super.abstractMethod(); //Abstract mrthod cannot be directly invoked
         System.out.println("Abstract method in child method");
+    
     }
     
     void childMethod(){
@@ -55,7 +63,7 @@ class NewClass extends Abstract_Class{
         System.out.println(myNewClass.a);
        
         myNewClass.abstractMethod();
-        myNewClass.super_Method();
+       // myNewClass.super_Method();
         myNewClass.myAbstractMethod();
        // System.out.println(myNewClass.b);
         System.out.println(myNewClass.c);
