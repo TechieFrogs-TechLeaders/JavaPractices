@@ -7,9 +7,9 @@ package OOPS;
     static{
         f = 56;
     }
-    private void super_Method(){ //we can put the method private but is of no use because we can only use it in the abstract class only but we cant initialize/no obj so waste to put it in private
+    /*private void super_Method(){ //we can put the method private but is of no use because we can only use it in the abstract class only but we cant initialize/no obj so waste to put it in private
         System.out.println("Super method");
-    }
+    }*/
     MyClass(){
         System.out.println("I am a grand-parent constructor");
     }
