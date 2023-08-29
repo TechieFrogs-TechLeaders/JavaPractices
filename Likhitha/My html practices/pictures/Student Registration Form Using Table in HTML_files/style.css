@@ -1,0 +1,35 @@
+body{
+    background-image: url("pictures/simple.png");
+
+}
+
+
+h1   {color: hsl(259, 78%, 46%);font-size:larger;font-family: Arial, Helvetica, sans-serif;}
+
+table{
+    
+    box-shadow: 0cap;
+    background-color: hsl(317, 25%, 59%);
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+.take{
+    color: hwb(0 95% 4%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.my header{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+tr,td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#CODE{
+ width: 250px;
+ Height:150px;
+}
+
+

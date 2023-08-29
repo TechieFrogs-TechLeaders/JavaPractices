@@ -1,0 +1,44 @@
+body{
+    background-image: url("pictures/simple.png");
+
+}
+
+
+h1   {color: hwb(259 16% 49%);font-size:larger;font-family: Arial, Helvetica, sans-serif;}
+
+table{
+    
+    border: dashed;
+    background-color: hsl(317, 25%, 59%);
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+.take{
+    color: hwb(0 95% 4%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.caption{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+tr,td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#CODE{
+ width:350px;
+ height:150px;
+
+}
+
+my css{
+   border: hidden;
+
+}
+.zoom{
+    padding:80;
+}
+
