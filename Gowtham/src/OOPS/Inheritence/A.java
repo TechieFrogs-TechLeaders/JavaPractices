@@ -20,17 +20,17 @@ class B extends A {
         this.k = k;
     }
 
-    @Override
     void show() {
         System.out.println("k = " + k);
+        super.show();
     }
 }
 
  class over {
     public static void main(String[] args) {
-        A objA = new A(1, 2);
+        //A objA = new A(1, 2);
         B objB = new B(3, 4, 5);
-        objA.show();
+      //  objA.show();
         objB.show();
     }
 } 
