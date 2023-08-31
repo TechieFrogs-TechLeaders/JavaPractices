@@ -16,7 +16,7 @@ public class ANew {
             static void newMethod(){
                 System.out.println("Static method");
                 class StaticClass{ //can write non static local class in static method
-                    int v = 5;
+                    //int v = 5;
                     void static_Method(){
                         System.out.println("Static local inner class ");
                     }
@@ -45,6 +45,7 @@ public class ANew {
        MyClass myObj = new MyClass();
        myObj.myMethod();
        myObj.myLocal_Class.abstract_Method();
+       myObj.myLocal_Class.local_Method();
        
        
        class InnerClass extends MyClass {

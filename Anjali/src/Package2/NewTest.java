@@ -4,6 +4,11 @@ package Package2;
 
 public class NewTest {
     public int x = 4;
+    public NewTest(){
+        System.out.println("NewTest Constructor");  //if protected is given to constructor then we can access in another package by using
+        //Super()
+    }
+   
     public static void main(String[] args) {
         System.out.println("package2");
 
