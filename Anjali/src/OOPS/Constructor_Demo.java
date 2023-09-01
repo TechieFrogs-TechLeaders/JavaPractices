@@ -4,7 +4,7 @@ public class Constructor_Demo {
     int x;
     String s;
     int y , z;
-    Constructor_Demo(){ //no argument consuructor
+    protected Constructor_Demo(){ //no argument consuructor
         x=10;
         System.out.println("Default constructor");
         System.out.println(s+" "+y+" "+z);
