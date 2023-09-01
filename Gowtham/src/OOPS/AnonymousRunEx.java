@@ -1,5 +1,4 @@
 package OOPS;
-
 public class AnonymousRunEx {
     public static void main(String[] args) {
         Thread thread = new Thread(new Runnable() {
