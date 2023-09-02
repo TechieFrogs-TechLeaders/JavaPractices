@@ -46,5 +46,15 @@ public class String_Methods {
         System.out.println(s5.replace("java","kava"));
         System.out.println(s5.replaceFirst("java","kava"));//changes the first value only
         System.out.println(s5.replaceFirst("is","i"));
+
+        System.out.println();
+        System.out.println("codePointAt() method:");
+        System.out.println(s1.codePointAt(0));
+        System.out.println(s2.codePointAt(3));
+
+        System.out.println();
+        System.out.println("codePointAt() method:");
+        System.out.println(s1.codePointAt(0));
+        System.out.println(s2.codePointAt(3));
     }
 }
