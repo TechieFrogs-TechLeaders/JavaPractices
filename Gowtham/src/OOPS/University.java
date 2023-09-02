@@ -10,7 +10,6 @@ public class University {
             System.out.println("Course: " + name);
         }
     }
-    public static Courses Courses;
 }
 class UniversityExample {
     public static void main(String[] args) {
