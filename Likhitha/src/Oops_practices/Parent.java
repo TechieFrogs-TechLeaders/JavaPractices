@@ -1,0 +1,33 @@
+package Oops_practices;
+
+public class Parent {
+    void show() { 
+        System.out.println("Parent's show()");
+     }
+}
+ 
+class Child extends Parent {
+    
+    @Override void show()
+    {
+        System.out.println("Child's show()");
+    }
+}
+ 
+
+class Main {
+    public static void main(String[] args)
+    {
+        
+        Parent obj1 = new Parent();
+        obj1.show();
+        System.out.println(obj1+"");
+
+}
+        Parent obj2 = new Child()
+        obj2.show();
+        System.out.println(obj2+"");
+    }
+
+
+

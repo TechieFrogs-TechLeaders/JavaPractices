@@ -1,10 +1,12 @@
 package Oops_practices;
 
 public class Chaining {
-        int a = 10;
+      public static final String ClassOne = null;
+    public static final String ClassTwo = null;
+      public  int a = 10;
         float f = 3.5f;
          boolean b = false;
- Chaining(){
+ public Chaining(){
     this(4);
     System.out.println("Parameter");
  }
