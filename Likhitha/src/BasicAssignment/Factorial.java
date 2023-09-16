@@ -5,10 +5,12 @@ public class Factorial {
         long factorial=1;
         for (int i=1;i<=num;i++)
         {
-            factorial=factorial * i;
+            
+            System.out.println(factorial=factorial * i);
+            System.out.println(i+"*"+factorial+" ="+factorial);
         }
         //System.out.println("factorial");same
-        System.out.println(factorial);
+        //System.out.println(factorial);
 
 
         }

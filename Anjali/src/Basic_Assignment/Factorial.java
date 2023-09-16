@@ -12,18 +12,18 @@ public class Factorial {
         }
         System.out.println("Factorial value of a :"+fact);
 
-       /*  {
-        System.out.println("For while loop");    
-        int b=8;
-        long factorial=1;    
-        int r=1;
-        while(r<=b)
         {
-            factorial=factorial*r;
-            System.out.println("values in each iteration :"+factorial);
-            r++;
-        }
-    }*/
+       /** */ System.out.println("For while loop");    
+       // int b=8;
+       // long factorial=1;    
+        //int r=1;
+       // while(r<=b)
+     //   {
+         //   factorial=factorial*r;
+       //     System.out.println("values in each iteration :"+factorial);
+           // r++;
+        }/** */
+   // }
     }
     
 }

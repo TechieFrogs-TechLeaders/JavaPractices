@@ -1,6 +1,6 @@
 package Oops_practices;
 
-public class StringBuffer {
+public class StringBuffer1 {
    // public StringBuffer(String string) {
    // }
 
